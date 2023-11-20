@@ -113,7 +113,7 @@ if(!defined('G5_IS_ADMIN'))
 				<?php /* 로고 */ ?>
 				<div id="logo">
 					<div class="inner">
-						<a href="./index.php">
+						<a href="/php/gnuboard5/index.php">
 							<img src="<?php echo G5_THEME_IMG_URL ?>/logo.png" alt="" class="logo-1" style="width: 160px">
 							<img src="<?php echo G5_THEME_IMG_URL ?>/logo-2.png" alt="" class="logo-2" style="width: 160px">
 						</a>

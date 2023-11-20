@@ -14,13 +14,13 @@ mobile_nav = function(){
                 mb = 1;
 				var h = jQuery('#mainmenu').css("height");
 				jQuery('header').stop().animate({
-					"height" : h
+					"height" : "445px"
 				}, 400);
                 break;
 
             case 2:
                 jQuery('header').stop().animate({
-					"height" : "80px"
+					"height" : "130px"
 				}, 400);
                 mb = 0;
                 break;
