@@ -10,7 +10,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$outlogin_skin_url.'/style.css">'
     <form name="foutlogin" action="<?php echo $outlogin_action_url ?>" onsubmit="return fhead_submit(this);" method="post" autocomplete="off">
         <input type="hidden" name="url" value="<?php echo $outlogin_url ?>">
         <div class="ol-logo">
-            <img src="<?php echo G5_THEME_IMG_URL ?>/logo-dark.png" alt="<?php echo $config['cf_title']; ?>">
+            <img src="<?php echo G5_THEME_IMG_URL ?>/logo-dark.png" alt="<?php echo $config['cf_title']; ?>" style="width:130px; height:80px">
         </div><div class="clearfix"></div>
         <div class="ol-account">
             <span class="pull-left"><a href="<?php echo G5_BBS_URL ?>/register.php">회원가입</a></span><div class="clearfix"></div>
