@@ -2,19 +2,19 @@
 
 /* 초기화 */
 html {overflow-y:scroll}
-body {margin:0;padding:0;font-size:0.75em;font-family:'Malgun Gothic', dotum, sans-serif;background:#fff}
+body {margin:0;padding:0;font-size:0.75em;font-family:"Nanum Gothic", dotum, sans-serif;background:#fff}
 html, h1, h2, h3, h4, h5, h6, form, fieldset, img {margin:0;padding:0;border:0}
-h1, h2, h3, h4, h5, h6 {font-size:1em;font-family:'Malgun Gothic', dotum, sans-serif}
+h1, h2, h3, h4, h5, h6 {font-size:1em;font-family:"Nanum Gothic", dotum, sans-serif}
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display:block}
 
 ul, dl,dt,dd {margin:0;padding:0;list-style:none}
 legend {position:absolute;margin:0;padding:0;font-size:0;line-height:0;text-indent:-9999em;overflow:hidden}
 label, input, button, select, img {vertical-align:middle;font-size:1em}
-input, button {margin:0;padding:0;font-family:'Malgun Gothic', dotum, sans-serif;font-size:1em}
+input, button {margin:0;padding:0;font-family:"Nanum Gothic", dotum, sans-serif;font-size:1em}
 input[type="submit"] {cursor:pointer}
 button {cursor:pointer}
 
-textarea, select {font-family:'Malgun Gothic', dotum, sans-serif;font-size:1em}
+textarea, select {font-family:"Nanum Gothic", dotum, sans-serif;font-size:1em}
 select {margin:0}
 p {margin:0;padding:0;word-break:break-all}
 hr {display:none}
@@ -68,7 +68,6 @@ border:1px solid #558ab7 !important;
 .hd_pops_footer .hd_pops_close {background:#393939;position:absolute;top:0;right:0}
 
 /* 상단 레이아웃 */
-#hd {background:#212020}
 #hd_h1 {position:absolute;font-size:0;line-height:0;overflow:hidden}
 
 #tnb {border-bottom:1px solid #383838;margin:0 auto}
@@ -94,7 +93,7 @@ border:1px solid #558ab7 !important;
 #hd_define li.active a {color:#fff}
 
 
-#hd_qnb {float:right;text-align:right}
+#hd_qnb {float:left;text-align:right}
 #hd_qnb:after {display:block;visibility:hidden;clear:both;content:""}
 #hd_qnb li {float:left;font-size:1.083em;line-height:14px;border-right:1px solid #4a4a4a;position:relative;text-align:center;margin:15px 10px 15px 0;padding-right:10px}
 #hd_qnb li:last-child {padding-right:0;margin-right:0;border-right:0}
@@ -110,7 +109,7 @@ border:1px solid #558ab7 !important;
 
 
 /* 메인메뉴 */
-#gnb {position:relative;background:#fff}
+#gnb {position:relative;}
 #gnb > h2 {position:absolute;font-size:0;line-height:0;overflow:hidden}
 #gnb .gnb_wrap {margin:0 auto;position:relative}
 #gnb .gnb_wrap:hover, #gnb .gnb_wrap:focus, #gnb .gnb_wrap:active{z-index:3}
@@ -182,7 +181,7 @@ box-shadow:0 2px 5px rgba(0,0,0,0.2)}
 .latest_top_wr:after {display:block;visibility:hidden;clear:both;content:""}
 
 /* 하단 레이아웃 */
-#ft {background:#212020;margin:0 auto;text-align:center}
+#ft {margin:0 auto;text-align:center}
 #ft h1 {position:absolute;font-size:0;line-height:0;overflow:hidden}
 #ft_wr {max-width:1240px;margin:0;padding:40px 0;position:relative;display:inline-block;text-align:left}
 #ft_wr:after {display:block;visibility:hidden;clear:both;content:""}

@@ -1,16 +1,6 @@
 <?php
 if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 
-if (G5_IS_MOBILE) {
-    include_once(G5_THEME_MOBILE_PATH.'/head.php');
-    return;
-}
-
-if(G5_COMMUNITY_USE === false) {
-    define('G5_IS_COMMUNITY_PAGE', true);
-    include_once(G5_THEME_SHOP_PATH.'/shop.head.php');
-    return;
-}
 include_once(G5_THEME_PATH.'/head.sub.php');
 include_once(G5_LIB_PATH.'/latest.lib.php');
 include_once(G5_LIB_PATH.'/outlogin.lib.php');
@@ -30,76 +20,224 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
         include G5_BBS_PATH.'/newwin.inc.php'; // 팝업레이어
     }
     ?>
-    <div id="tnb">
+
+    <div id="tnb" class="darkBack">
     	<div class="inner">
-            <?php if(G5_COMMUNITY_USE) { ?>
-    		<ul id="hd_define">
-    			<li class="active"><a href="<?php echo G5_URL ?>/">커뮤니티</a></li>
-                <?php if (defined('G5_USE_SHOP') && G5_USE_SHOP) { ?>
-    			<li><a href="<?php echo G5_SHOP_URL ?>/">쇼핑몰</a></li>
-                <?php } ?>
-    		</ul>
-            <?php } ?>
-			<ul id="hd_qnb">
-	            <li><a href="<?php echo G5_BBS_URL ?>/faq.php">FAQ</a></li>
-	            <li><a href="<?php echo G5_BBS_URL ?>/qalist.php">Q&A</a></li>
-	            <li><a href="<?php echo G5_BBS_URL ?>/new.php">새글</a></li>
-	            <li><a href="<?php echo G5_BBS_URL ?>/current_connect.php" class="visit">접속자<strong class="visit-num"><?php echo connect('theme/basic'); // 현재 접속자수, 테마의 스킨을 사용하려면 스킨을 theme/basic 과 같이 지정  ?></strong></a></li>
-	        </ul>
+            <header class="page-header" style="margin: 5px 0 0;">
+                <div class="navbar">
+                    <ul id="hd_qnb">
+                        <li><a href="<?php echo G5_BBS_URL ?>/faq.php" class="font13">FAQ</a></li>
+                        <li><a href="<?php echo G5_BBS_URL ?>/qalist.php" class="font13">Q&A</a></li>
+                        <li><a href="<?php echo G5_BBS_URL ?>/new.php" class="font13">새글</a></li>
+                        <li><a href="<?php echo G5_BBS_URL ?>/current_connect.php" class="visit font13">접속자<strong class="visit-num"><?php echo connect('theme/basic'); // 현재 접속자수, 테마의 스킨을 사용하려면 스킨을 theme/basic 과 같이 지정  ?></strong></a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right pull-right">
+                        <li class="hidden-xs">
+                            <a
+                                href="#"
+                                id="search_toggle">
+                                <i class="fa fa-search"></i>
+                            </a>
+                        </li>
+                        <li class="dropdown">
+                            <a  href="#"
+                                title="Messages"
+                                id="messages"
+                                class="dropdown-toggle"
+                                data-toggle="dropdown">
+                                <i class="glyphicon glyphicon-comment"></i>
+                            </a>
+                            <ul id="messages_menu"
+                                class="dropdown-menu messages"
+                                role="menu">
+                                <li role="presentation">
+                                    <a  href="#"
+                                        class="message">
+                                        <img    src="../reference/lightblue4/docs/img/1.png"
+                                                alt="" />
+                                        <div class="details">
+                                            <div class="sender">Jane Hew</div>
+                                            <div class="text">Hey, John! How is it going? ...</div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li role="presentation">
+                                    <a  href="#"
+                                        class="message">
+                                        <img    src="../reference/lightblue4/docs/img/2.png"
+                                                alt="" />
+                                        <div class="details">
+                                            <div class="sender">Alies Rumiancaŭ</div>
+                                            <div class="text">I'll definitely buy this template</div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li role="presentation">
+                                    <a  href="#"
+                                        class="message">
+                                        <img    src="../reference/lightblue4/docs/img/3.png"
+                                                alt="" />
+                                        <div class="details">
+                                            <div class="sender">Michał Rumiancaŭ</div>
+                                            <div class="text">Is it really Lore ipsum? Lore ...</div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li role="presentation">
+                                    <a  href="#"
+                                        class="text-align-center see-all">
+                                        See all messages
+                                        <i class="fa fa-arrow-right"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a  href="#"
+                                title="8 support tickets"
+                                class="dropdown-toggle"
+                                data-toggle="dropdown">
+                                <i class="glyphicon glyphicon-globe"></i>
+                                <span class="count">8</span>
+                            </a>
+                            <ul id="support_menu"
+                                class="dropdown-menu support"
+                                role="menu">
+                                <li role="presentation">
+                                    <a  href="#"
+                                        class="support-ticket">
+                                        <div class="picture">
+                                            <span class="label label-important"><i class="fa fa-bell-o"></i></span>
+                                        </div>
+                                        <div class="details">Check out this awesome ticket</div>
+                                    </a>
+                                </li>
+                                <li role="presentation">
+                                    <a  href="#"
+                                        class="support-ticket">
+                                        <div class="picture">
+                                            <span class="label label-warning"><i class="fa fa-question-circle"></i></span>
+                                        </div>
+                                        <div class="details">"What is the best way to get ...</div>
+                                    </a>
+                                </li>
+                                <li role="presentation">
+                                    <a  href="#"
+                                        class="support-ticket">
+                                        <div class="picture">
+                                            <span class="label label-success"><i class="fa fa-tag"></i></span>
+                                        </div>
+                                        <div class="details">This is just a simple notification</div>
+                                    </a>
+                                </li>
+                                <li role="presentation">
+                                    <a  href="#"
+                                        class="support-ticket">
+                                        <div class="picture">
+                                            <span class="label label-info"><i class="fa fa-info-circle"></i></span>
+                                        </div>
+                                        <div class="details">12 new orders has arrived today</div>
+                                    </a>
+                                </li>
+                                <li role="presentation">
+                                    <a  href="#"
+                                        class="support-ticket">
+                                        <div class="picture">
+                                            <span class="label label-important"><i class="fa fa-plus"></i></span>
+                                        </div>
+                                        <div class="details">One more thing that just happened</div>
+                                    </a>
+                                </li>
+                                <li role="presentation">
+                                    <a  href="#"
+                                        class="text-align-center see-all">
+                                        See all tickets
+                                        <i class="fa fa-arrow-right"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="divider"></li>
+                        <li class="hidden-xs">
+                            <a  href="#"
+                                id="settings"
+                                title="Settings"
+                                data-toggle="popover"
+                                data-placement="bottom">
+                                <i class="glyphicon glyphicon-cog"></i>
+                            </a>
+                        </li>
+                        <li class="hidden-xs dropdown">
+                            <a  href="#"
+                                title="Account"
+                                id="account"
+                                class="dropdown-toggle"
+                                data-toggle="dropdown">
+                                <i class="glyphicon glyphicon-user"></i>
+                            </a>
+                            <ul id="account_menu"
+                                class="dropdown-menu account"
+                                role="menu">
+                                <li role="presentation"
+                                    class="account-picture">
+
+                                </li>
+                                <li role="presentation">
+                                    <a  href="#"
+                                        class="link">
+                                        <i class="fa fa-user"></i>
+                                        Profile
+                                    </a>
+                                </li>
+                                <li role="presentation">
+                                    <a  href="#"
+                                        class="link">
+                                        <i class="fa fa-calendar"></i>
+                                        Calendar
+                                    </a>
+                                </li>
+                                <li role="presentation">
+                                    <a  href="#"
+                                        class="link">
+                                        <i class="fa fa-inbox"></i>
+                                        Inbox
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="visible-xs">
+                            <a  href="#"
+                                class="btn-navbar"
+                                data-toggle="collapse"
+                                data-target=".sidebar"
+                                title="">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                        </li>
+                        <li class="hidden-xs logout">
+                            <a href="#"
+                                    class="link logout"><i class="glyphicon glyphicon-off"></i></a>
+                        </li>
+                    </ul>
+                    <form   id="search_form"
+                            class="hidden-xs navbar-form pull-right"
+                            role="search">
+                        <input  type="search"
+                                class="form-control search-query"
+                                placeholder="Search..." />
+                    </form>
+                    <div class="notifications pull-right" style="line-height: 21px !important;"></div>
+                </div>
+            </header>
 		</div>
     </div>
     <div id="hd_wrapper">
 
         <div id="logo">
-            <a href="<?php echo G5_URL ?>"><img src="<?php echo G5_IMG_URL ?>/logo.png" alt="<?php echo $config['cf_title']; ?>"></a>
+            <a href="<?php echo G5_URL ?>"><img src="<?php echo G5_IMG_URL ?>/313.png" style="width:150px;" alt="<?php echo $config['cf_title']; ?>"></a>
         </div>
-    
-        <div class="hd_sch_wr">
-            <fieldset id="hd_sch">
-                <legend>사이트 내 전체검색</legend>
-                <form name="fsearchbox" method="get" action="<?php echo G5_BBS_URL ?>/search.php" onsubmit="return fsearchbox_submit(this);">
-                <input type="hidden" name="sfl" value="wr_subject||wr_content">
-                <input type="hidden" name="sop" value="and">
-                <label for="sch_stx" class="sound_only">검색어 필수</label>
-                <input type="text" name="stx" id="sch_stx" maxlength="20" placeholder="검색어를 입력해주세요">
-                <button type="submit" id="sch_submit" value="검색"><i class="fa fa-search" aria-hidden="true"></i><span class="sound_only">검색</span></button>
-                </form>
 
-                <script>
-                function fsearchbox_submit(f)
-                {
-                    var stx = f.stx.value.trim();
-                    if (stx.length < 2) {
-                        alert("검색어는 두글자 이상 입력하십시오.");
-                        f.stx.select();
-                        f.stx.focus();
-                        return false;
-                    }
-
-                    // 검색에 많은 부하가 걸리는 경우 이 주석을 제거하세요.
-                    var cnt = 0;
-                    for (var i = 0; i < stx.length; i++) {
-                        if (stx.charAt(i) == ' ')
-                            cnt++;
-                    }
-
-                    if (cnt > 1) {
-                        alert("빠른 검색을 위하여 검색어에 공백은 한개만 입력할 수 있습니다.");
-                        f.stx.select();
-                        f.stx.focus();
-                        return false;
-                    }
-                    f.stx.value = stx;
-
-                    return true;
-                }
-                </script>
-
-            </fieldset>
-                
-            <?php echo popular('theme/basic'); // 인기검색어, 테마의 스킨을 사용하려면 스킨을 theme/basic 과 같이 지정  ?>
-        </div>
-        <ul class="hd_login">        
+        <ul class="hd_login">
             <?php if ($is_member) {  ?>
             <li><a href="<?php echo G5_BBS_URL ?>/member_confirm.php?url=<?php echo G5_BBS_URL ?>/register_form.php">정보수정</a></li>
             <li><a href="<?php echo G5_BBS_URL ?>/logout.php">로그아웃</a></li>
@@ -110,10 +248,9 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
             <li><a href="<?php echo G5_BBS_URL ?>/register.php">회원가입</a></li>
             <li><a href="<?php echo G5_BBS_URL ?>/login.php">로그인</a></li>
             <?php }  ?>
-
         </ul>
     </div>
-    
+
     <nav id="gnb">
         <h2>메인메뉴</h2>
         <div class="gnb_wrap">
@@ -133,7 +270,7 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                     $k = 0;
                     foreach( (array) $row['sub'] as $row2 ){
 
-                        if( empty($row2) ) continue; 
+                        if( empty($row2) ) continue;
 
                         if($k == 0)
                             echo '<span class="bg">하위분류</span><div class="gnb_2dul"><ul class="gnb_2dul_box">'.PHP_EOL;
@@ -159,7 +296,7 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                 <h2>전체메뉴</h2>
                 <ul class="gnb_al_ul">
                     <?php
-                    
+
                     $i = 0;
                     foreach( $menu_datas as $row ){
                     ?>
@@ -194,7 +331,7 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
         </div>
     </nav>
     <script>
-    
+
     $(function(){
         $(".gnb_menu_btn").click(function(){
             $("#gnb_all, #gnb_all_bg").show();
@@ -214,6 +351,6 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
 <!-- 콘텐츠 시작 { -->
 <div id="wrapper">
     <div id="container_wr">
-   
+
     <div id="container">
         <?php if (!defined("_INDEX_")) { ?><h2 id="container_title"><span title="<?php echo get_text($g5['title']); ?>"><?php echo get_head_title($g5['title']); ?></span></h2><?php }
