@@ -178,7 +178,7 @@ echo '<link rel="stylesheet" href="'.run_replace('head_css_url', G5_THEME_CSS_UR
     <script type="text/javascript" src="/313devgrp/reference/jquery-plugins/topbar.js"></script>
 
     <!-- page js -->
-    <script type="text/javascript" src="/313devgrp/arms/js/common.js" charset="utf-8"></script>
+    <script type="text/javascript" src="http://www.313.co.kr:9999/arms/js/common.js" charset="utf-8"></script>
     <script type="text/javascript" src="/313devgrp/arms/js/common/dwrChat.js" charset="utf-8"></script>
 
 <!--[if lte IE 8]>
