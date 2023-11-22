@@ -41,6 +41,8 @@ add_stylesheet('<link rel="stylesheet" href="'.$outlogin_skin_url.'/style.css">'
     </footer>
 </section>
 
+<?php echo visit('theme/basic'); // 접속자집계, 테마의 스킨을 사용하려면 스킨을 theme/basic 과 같이 지정 ?>
+
 <script>
 // 탈퇴의 경우 아래 코드를 연동하시면 됩니다.
 function member_leave()
