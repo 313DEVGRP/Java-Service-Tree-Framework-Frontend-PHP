@@ -160,6 +160,11 @@ echo '<link rel="stylesheet" href="'.run_replace('head_css_url', G5_THEME_CSS_UR
     <script type="text/javascript" src="/313devgrp/reference/jquery-plugins/jnotify_v2.1/jquery/jNotify.jquery.min.js" charset="utf-8"></script>
     <link rel="stylesheet" type="text/css" href="/313devgrp/reference/jquery-plugins/jnotify_v2.1/jquery/jNotify.jquery.css" media="screen" />
 
+    <!-- Ladda -->
+    <script type="text/javascript" src="/313devgrp/reference/jquery-plugins/Ladda-jQuery-0.6.0/dist/spin.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/313devgrp/reference/jquery-plugins/Ladda-jQuery-0.6.0/js/ladda.js" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="/313devgrp/reference/jquery-plugins/Ladda-jQuery-0.6.0/dist/ladda.min.css" media="screen" />
+
     <!-- notification popup -->
     <script src="/313devgrp/reference/lightblue4/docs/lib/messenger/build/js/messenger.min.js"></script>
     <script src="/313devgrp/reference/lightblue4/docs/lib/messenger/build/js/messenger-theme-flat.js"></script>
@@ -202,8 +207,8 @@ var g5_admin_url = "<?php echo G5_ADMIN_URL; ?>";
 
 
 <?php
-add_javascript('<script src="'.G5_JS_URL.'/jquery-1.12.4.min.js"></script>', 0);
-add_javascript('<script src="'.G5_JS_URL.'/jquery-migrate-1.4.1.min.js"></script>', 0);
+//add_javascript('<script src="'.G5_JS_URL.'/jquery-1.12.4.min.js"></script>', 0);
+//add_javascript('<script src="'.G5_JS_URL.'/jquery-migrate-1.4.1.min.js"></script>', 0);
 if (defined('_SHOP_')) {
     if(!G5_IS_MOBILE) {
         add_javascript('<script src="'.G5_JS_URL.'/jquery.shop.menu.js?ver='.G5_JS_VER.'"></script>', 0);
@@ -223,7 +228,7 @@ if(!defined('G5_IS_ADMIN'))
     echo $config['cf_add_script'];
 ?>
 </head>
-<body<?php echo isset($g5['body_script']) ? $g5['body_script'] : ''; ?> style="padding-left: 0px;padding-right: 0px;">
+<body<?php echo isset($g5['body_script']) ? $g5['body_script'] : ''; ?> style="overflow-x: hidden">
 <?php
 if ($is_member) { // 회원이라면 로그인 중이라는 메세지를 출력해준다.
     $sr_admin_msg = '';

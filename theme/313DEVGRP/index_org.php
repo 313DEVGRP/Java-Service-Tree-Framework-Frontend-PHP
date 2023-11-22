@@ -12,7 +12,7 @@ if(G5_COMMUNITY_USE === false) {
     return;
 }
 
-include_once(G5_THEME_PATH.'/head.php');
+include_once(G5_THEME_PATH.'/head_org.php');
 ?>
 
 <h2 class="sound_only">최신글</h2>
@@ -69,4 +69,4 @@ include_once(G5_THEME_PATH.'/head.php');
 </div>
 
 <?php
-include_once(G5_THEME_PATH.'/tail.php');
+include_once(G5_THEME_PATH.'/tail_org.php');
