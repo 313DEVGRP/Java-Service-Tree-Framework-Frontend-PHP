@@ -1,5 +1,6 @@
-<ul id="side-nav"
-	class="side-nav">
+<ul
+		id="side-nav"
+		class="side-nav">
 
 	<li class="category-wrap" style="padding-top: 40px;">
 		<span   class="category-label"
@@ -9,7 +10,7 @@
 			<ul id="dashboard_elements_collapse">
                 <li class=""
 					id="sidebar_menu_dashboard_home">
-                    <a href="/php/gnuboard5/index.php"
+                    <a href="/313devgrp/arms/template.html?page=dashboard"
 					   style="padding: 4px 10px 4px 15px; !important;">Dashboard</a>
                 </li>
             </ul>
@@ -18,9 +19,108 @@
 
 	<li class="category-wrap" style="padding-top: 10px;">
 		<span   class="category-label"
-				id="sidebar_menu_community">
+				id="sidebar_menu_product">
 			<i class="fa fa-cubes"></i>
-			Community
+			Product<sup>service</sup>
+		</span>
+		<ul id="product_elements_collapse">
+			<li class=""
+				id="sidebar_menu_product_manage">
+				<a href="/313devgrp/arms/template.html?page=pdService">제품 관리</a>
+			</li>
+			<li class=""
+				id="sidebar_menu_version_manage">
+				<a href="/313devgrp/arms/template.html?page=pdServiceVersion">버전 관리</a>
+			</li>
+
+		</ul>
+	</li>
+
+	<li class="category-wrap" style="padding-top: 10px;">
+        <span class="category-label"
+			  id="sidebar_menu_jira">
+            <img src="/313devgrp/arms/img/jira/mark-gradient-neutral-jira.svg"
+				 id="side_jira_neutral_icon"
+				 class="hidden"
+				 width="17px"
+				 style="margin-right: 3px"></img>
+            <img src="/313devgrp/arms//img/jira/mark-gradient-white-jira.svg"
+				 id="side_jira_white_icon"
+				 width="17px"
+				 style="margin-right: 3px"></img>
+            JIRA
+        </span>
+		<ul id="jira_elements_collapse">
+			<li class=""
+				id="sidebar_menu_jira_manage">
+				<a href="/313devgrp/arms/template.html?page=jiraConnection">서버 관리</a>
+			</li>
+			<li class=""
+				id="sidebar_menu_product_jira_connect">
+				<a href="/313devgrp/arms/template.html?page=pdServiceJira">연결 관리</a>
+			</li>
+		</ul>
+	</li>
+
+	<li class="category-wrap" style="padding-top: 10px;">
+		<span   class="category-label"
+				id="sidebar_menu_requirement">
+			<i class="fa fa-table"></i>
+			Requirement
+		</span>
+		<ul id="requirement_elements_collapse">
+			<li class=""
+				id="sidebar_menu_requirement_regist">
+				<a href="/313devgrp/arms/template.html?page=reqAdd">요구 관리</a>
+			</li>
+			<li class=""
+				id="sidebar_menu_requirement_status">
+				<a href="/313devgrp/arms/template.html?page=reqStatus">현황 관리</a>
+			</li>
+		</ul>
+	</li>
+
+	<li class="category-wrap" style="padding-top: 10px;">
+		<span   class="category-label"
+				id="sidebar_menu_analysis">
+			<i class="fa fa-bar-chart-o"></i>
+			Analysis
+		</span>
+		<ul id="analysis_elements_collapse">
+			<li class=""
+				id="sidebar_menu_analysis_gantt">
+				<a href="/313devgrp/arms/template.html?page=analysisGantt">간트 차트<span class="font12"> - Gantt</span></a>
+			</li>
+			<li class=""
+				id="sidebar_menu_analysis_time">
+				<a href="/313devgrp/arms/template.html?page=analysisTime">일정 분석<span class="font12"> - Time</span></a>
+			</li>
+			<li class=""
+				id="sidebar_menu_analysis_scope">
+				<a href="/313devgrp/arms/template.html?page=analysisScope">범위 분석<span class="font12"> - Scope</span></a>
+			</li>
+			<li class=""
+				id="sidebar_menu_analysis_resource">
+				<a href="/313devgrp/arms/template.html?page=analysisResource">자원 분석<span class="font12"> - Resource</span></a>
+			</li>
+			<li class=""
+				id="sidebar_menu_analysis_cost">
+				<a href="/313devgrp/arms/template.html?page=analysisCost">비용 분석<span class="font12"> - Cost</span></a>
+			</li>
+		</ul>
+	</li>
+
+	<li class="category-wrap" style="padding-top: 10px;">
+		<span   class="category-label"
+				id="sidebar_menu_community">
+			<i class="fa fa-child"></i>
+            <ul id="community_elements_collapse_home">
+                <li class=""
+					id="sidebar_menu_community_home">
+                    <a href="/php/gnuboard5/"
+					   style="padding: 4px 10px 4px 15px; !important;">Community</a>
+                </li>
+            </ul>
 		</span>
 		<ul id="community_elements_collapse">
 			<li class=""
@@ -28,73 +128,35 @@
 				<a href="/php/gnuboard5/bbs/board.php?bo_table=notice">공지 사항</a>
 			</li>
 			<li class=""
-				id="sidebar_menu_community_jstf">
-				<a href="/php/gnuboard5/bbs/board.php?bo_table=jstf">JSTF 소개</a>
-			</li>
-			<li class=""
-				id="sidebar_menu_community_freeboard">
-				<a href="/php/gnuboard5/bbs/board.php?bo_table=freeboard">자유 게시판</a>
-			</li>
-			<li class=""
-				id="sidebar_menu_community_techboard">
-				<a href="/php/gnuboard5/bbs/board.php?bo_table=techboard">테크 게시판</a>
-			</li>
-		</ul>
-	</li>
-
-	<li class="category-wrap" style="padding-top: 10px;">
-		<span   class="category-label"
-				id="sidebar_menu_arms">
-			<i class="fa fa-bar-chart-o"></i>
-			A-RMS
-		</span>
-		<ul id="arms_elements_collapse">
-			<li class=""
-				id="sidebar_menu_arms_">
-				<a href="/php/gnuboard5/bbs/board.php?bo_table=arms">A-RMS 소개</a>
-			</li>
-			<li class=""
-				id="sidebar_menu_arms_releasenote">
+				id="sidebar_menu_community_releasenote">
 				<a href="/php/gnuboard5/bbs/board.php?bo_table=releasenote">업데이트 노트</a>
 			</li>
 			<li class=""
-				id="sidebar_menu_arms_manual">
+				id="sidebar_menu_community_manual">
 				<a href="/php/gnuboard5/bbs/board.php?bo_table=manual">사용자 메뉴얼</a>
 			</li>
 			<li class=""
-				id="sidebar_menu_arms_qna">
-				<a href="/php/gnuboard5/bbs/board.php?bo_table=qa">온라인 QnA</a>
+				id="sidebar_menu_community_devtools">
+				<a href="/313devgrp/arms//313devgrp/arms/template.html?page=community_devtools">관리 도구</a>
+			</li>
+			<li class=""
+				id="sidebar_menu_community_contributors">
+				<a href="/313devgrp/arms//313devgrp/arms/template.html?page=community_contributors">만든 사람</a>
+			</li>
+			<li class=""
+				id="sidebar_menu_community_license">
+				<a href="/313devgrp/arms//313devgrp/arms/template.html?page=community_license">라이 선스</a>
 			</li>
 		</ul>
 	</li>
 
-	<li class="category-wrap" style="padding-top: 10px;">
-		<span   class="category-label"
-				id="sidebar_menu_management">
-			<i class="fa fa-codepen"></i>
-			Management
-		</span>
-		<ul id="management_elements_collapse">
-			<li class=""
-				id="sidebar_menu_management_contributors">
-				<a href="/php/gnuboard5/sub.php?page=contributors">개발자<span class="font12"> - Contributor</span></a>
-			</li>
-			<li class=""
-				id="sidebar_menu_management_devtools">
-				<a href="/php/gnuboard5/sub.php?page=devtools">개발툴<span class="font12"> - DevTools</span></a>
-			</li>
-			<li class=""
-				id="sidebar_menu_management_license">
-				<a href="/php/gnuboard5/sub.php?page=license">라이선스<span class="font12"> - License</span></a>
-			</li>
-		</ul>
-	</li>
 </ul>
 
 <h5 class="sidebar-nav-title">
 	Labels
-	<a class="action-link"
-		href="#">
+	<a
+			class="action-link"
+			href="#">
 		<i class="glyphicon glyphicon-plus"></i>
 	</a>
 </h5>
@@ -146,7 +208,7 @@
 <!-- A place for sidebar notifications & alerts -->
 <div class="sidebar-alerts">
 	<div class="alert fade in">
-		<a href="#"
+		<a  href="#"
 			class="close"
 			data-dismiss="alert"
 			aria-hidden="true">
@@ -155,8 +217,9 @@
 		<span class="text-white fw-semi-bold">Sales Report</span>
 		<br />
 		<div class="progress progress-xs mt-xs mb-0">
-			<div class="progress-bar progress-bar-gray-light"
-                 style="width: 16%"></div>
+			<div
+					class="progress-bar progress-bar-gray-light"
+					style="width: 16%"></div>
 		</div>
 		<small>Calculating x-axis bias... 65%</small>
 	</div>
