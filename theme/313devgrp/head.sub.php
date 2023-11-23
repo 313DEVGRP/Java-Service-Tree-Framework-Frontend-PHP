@@ -135,8 +135,8 @@ echo '<link rel="stylesheet" href="'.run_replace('head_css_url', G5_THEME_CSS_UR
 ?>
 
     <!-- favicon -->
-    <link rel="icon" href="./img/313_logo.ico" type="image/x-icon" />
-    <link rel="shortcut icon" href="./img/313_logo.ico" type="image/x-icon" />
+    <link rel="icon" href="/313devgrp/arms/img/313_logo.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/313devgrp/arms/img/313_logo.ico" type="image/x-icon" />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

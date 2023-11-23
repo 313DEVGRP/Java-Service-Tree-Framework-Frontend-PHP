@@ -7,21 +7,54 @@ add_stylesheet('<link rel="stylesheet" href="'.$outlogin_skin_url.'/style.css">'
 
 <!-- 로그인 전 아웃로그인 시작 { -->
 <section id="ol_before" class="ol">
-	<div id="ol_be_cate">
+	<div id="ol_be_cate" style="display:none">
     	<h2><span class="sound_only">회원</span>로그인</h2>
     	<a href="<?php echo G5_BBS_URL ?>/register.php" class="join">회원가입</a>
     </div>
+    <header class="text-align-center">
+        <h4 style="font-size:13px;font-weight:bold;">
+            Sign in to your account
+        </h4>
+    </header>
     <form name="foutlogin" action="<?php echo $outlogin_action_url ?>" onsubmit="return fhead_submit(this);" method="post" autocomplete="off">
     <fieldset>
         <div class="ol_wr">
             <input type="hidden" name="url" value="<?php echo $outlogin_url ?>">
             <label for="ol_id" id="ol_idlabel" class="sound_only">회원아이디<strong>필수</strong></label>
-            <input type="text" id="ol_id" name="mb_id" required maxlength="20" placeholder="아이디">
+
+            <div class="">
+                <label for="username" class="">Username or email</label>
+
+                <div class="input-group">
+                    <span class="input-group-addon" id="addUsernameSkinFromCode">
+                        <i class="fa fa-user"></i>
+                    </span>
+                    <input type="text" id="ol_id" name="mb_id" class="darkBack" required maxlength="20" placeholder="아이디">
+                </div>
+            </div>
+
+
             <label for="ol_pw" id="ol_pwlabel" class="sound_only">비밀번호<strong>필수</strong></label>
-            <input type="password" name="mb_password" id="ol_pw" required maxlength="20" placeholder="비밀번호">
-            <input type="submit" id="ol_submit" value="로그인" class="btn_b02">
+
+            <div class="" style="margin-top: 20px;">
+                <label for="password" class="">Password</label>
+
+                <div class="input-group input-group-lg">
+                    <span class="input-group-addon" id="addPasswordSkinFromCode">
+                        <i class="fa fa-lock"></i>
+                    </span>
+                    <input type="password" name="mb_password" id="ol_pw" class="darkBack" required maxlength="20" placeholder="비밀번호">
+            </div>
+
+            <div class="form-actions" style="margin-top: 0px; padding: 0px 0px 10px 0px;">
+                <div id="kc-form-buttons" class="">
+                  <input    type="submit" id="ol_submit" class="btn btn-block btn-lg btn-danger" value="Sign In" class="btn_b02"
+                            style="padding: 0px;font-size: 14px;">
+                </div>
+            </div>
+
         </div>
-        <div class="ol_auto_wr">
+        <div class="ol_auto_wr darkBack">
             <div id="ol_auto" class="chk_box">
                 <input type="checkbox" name="auto_login" value="1" id="auto_login" class="selec_chk">
                 <label for="auto_login" id="auto_login_label"><span></span>자동로그인</label>
@@ -43,13 +76,12 @@ add_stylesheet('<link rel="stylesheet" href="'.$outlogin_skin_url.'/style.css">'
 
     <div id="ft_company" class="ft_cnt">
         <h2>사이트 정보</h2>
-        <p class="ft_info">
-            회사명 : 회사명 / 대표 : 대표자명<br>
-            주소  : OO도 OO시 OO구 OO동 123-45<br>
-            사업자 등록번호  : 123-45-67890<br>
-            전화 :  02-123-4567  팩스  : 02-123-4568<br>
-            통신판매업신고번호 :  제 OO구 - 123호<br>
-            개인정보관리책임자 :  정보책임자명<br>
+        <p class="ft_info font12 darkBack">
+            회사명 : 313DEVGRP / 대표 : 이동민<br>
+            주소 : 서울특별시 강동구 천호동 570 강변그대가갤럭시 202동 1402호<br>
+            사업자 등록번호  : 313-77-33133<br>
+            통신판매업신고번호 :  제 77구 - 313호<br>
+            개인정보관리책임자 :  이동민 / 전화 : 010-5093-7313<br>
         </p>
     </div>
 
