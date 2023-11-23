@@ -34,99 +34,95 @@ header("Pragma: no-cache"); // HTTP/1.0
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <title>313DEVGRP Community</title>
+    <title>A-RMS By 313DEVGRP</title>
 
-    <meta   charset="utf-8" />
-    <meta   http-equiv="X-UA-Compatible"
-            content="IE=edge" />
-    <!-- Tell the browser to be responsive to screen width -->
-    <meta   name="viewport"
-            content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+        <meta   charset="utf-8" />
+        <meta   http-equiv="X-UA-Compatible"
+                content="IE=edge" />
+        <!-- Tell the browser to be responsive to screen width -->
+        <meta   name="viewport"
+                content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+        <meta   http-equiv="Expire"
+                content="-1" />
+        <meta   http-equiv="Keywords"
+                content="A-RMS By 313DEVGRP" />
+        <meta   http-equiv="Reply-to"
+                content="313cokr@gmail.com" />
+        <meta   http-equiv="Content-Language"
+                content="Korean" />
+        <meta   http-equiv="Last-Modified"
+                content="Wed 01 Nov 2023 23:59:59" />
+        <meta   http-equiv="Organization"
+                content="www.a-rms.net" />
+        <meta   http-equiv="Content-Type"
+                content="text/html;charset=utf-8" />
+        <meta   http-equiv="Cache-Control"
+                content="no-cache" />
+        <meta   http-equiv="Pragma"
+                content="no-cache" />
+        <meta   http-equiv="imagetoolbar"
+                content="no" />
+        <meta   http-equiv="content-Script-type"
+                content="text/javascript" />
+        <meta   http-equiv="content-Style-type"
+                content="text/css" />
 
-    <meta   http-equiv="Expire"
-            content="-1" />
-    <meta   http-equiv="Keywords"
-            content="313 DEV GRP" />
-    <meta   http-equiv="Reply-to"
-            content="313cokr@gmail.com" />
-    <meta   http-equiv="Content-Language"
-            content="Korean" />
-    <meta   http-equiv="Last-Modified"
-            content="Thu 01 Nov 2016 23:59:59" />
-    <meta   http-equiv="Organization"
-            content="www.313.co.kr" />
-    <meta   http-equiv="Content-Type"
-            content="text/html;charset=utf-8" />
-    <meta   http-equiv="Cache-Control"
-            content="no-cache" />
-    <meta   http-equiv="Pragma"
-            content="no-cache" />
-    <meta   http-equiv="imagetoolbar"
-            content="no" />
-    <meta   http-equiv="content-Script-type"
-            content="text/javascript" />
-    <meta   http-equiv="content-Style-type"
-            content="text/css" />
-
-    <meta   name="robots"
-            content="ALL, INDEX, FOLLOW" />
-    <meta   name="Subject"
-            content="313 DEV GRP" />
-    <meta   name="Filename"
-            content="index.html" />
-    <meta   name="Author-Date"
-            content="31 Oct 16" />
-    <meta   name="Date"
-            content="31 Oct 16" />
-    <meta   name="Author"
-            content="LeeDongmin" />
-    <meta   name="Other Agent"
-            content="LeeDongMin" />
-    <meta   name="Email"
-            content="313cokr@gmail.com" />
-    <meta   name="Reply-To"
-            content="313cokr@gmail.com" />
-    <meta   name="Project"
-            content="Java Service Tree Framework" />
-    <meta   name="Status"
-            content="Draft" />
-    <meta   name="Location"
-            content="South Korea" />
-    <meta   name="distribution"
-            content="313 DEV GRP" />
-    <meta   name="Description"
-            content="Standard Web Project" />
-    <meta   name="verify-v1"
-            content="Eal6+fiCjgKAZb5A6pRvSLmsh9NLF2AsqxqJrLuFoAs=" />
-    <meta   name="Revision"
-            content="1.0" />
-    <meta   name="Generator"
-            content="eclipse 3.6.1" />
-    <meta   name="Classification"
-            content="Development,Deployment" />
-    <meta   name="Copyright"
-            content="CopyRight@aRMS. All Rights Reserved" />
-    <meta   name="title"
-            content="313 DEV GRP" />
-    <meta   name="revisit-after"
-            content="7 days" />
-    <meta   name="siteinfo"
-            content="http://www.313.co.kr/robots.txt" />
-    <meta   name="HandheldFriendly"
-            content="True" />
-    <meta   name="MobileOptimized"
-            content="320" />
-    <meta   name="format-detection"
-            content="telephone=no">
-
-    <meta   property="og:type"
-            content="website" />
-    <meta   property="og:title"
-            content="313 DEV GRP" />
-    <meta   property="og:url"
-            content="http://www.313.co.kr/" />
-    <meta   property="og:site_name"
-            content="313 DEV GRP" />
+        <meta   name="robots"
+                content="ALL, INDEX, FOLLOW" />
+        <meta   name="Subject"
+                content="A-RMS By 313DEVGRP" />
+        <meta   name="Filename"
+                content="template.html" />
+        <meta   name="Author-Date"
+                content="Wed 01 Nov 2023" />
+        <meta   name="Date"
+                content="Wed 01 Nov 2023" />
+        <meta   name="Author"
+                content="313DEVGRP" />
+        <meta   name="Other Agent"
+                content="313DEVGRP" />
+        <meta   name="Email"
+                content="313cokr@gmail.com" />
+        <meta   name="Reply-To"
+                content="313cokr@gmail.com" />
+        <meta   name="Project"
+                content="A-RMS By 313DEVGRP" />
+        <meta   name="Status"
+                content="Draft" />
+        <meta   name="Location"
+                content="South Korea" />
+        <meta   name="distribution"
+                content="A-RMS By 313DEVGRP" />
+        <meta   name="Description"
+                content="A-RMS By 313DEVGRP" />
+        <meta   name="verify-v1"
+                content="Eal6+fiCjgKAZb5A6pRvSLmsh9NLF2AsqxqJrLuFoAs=" />
+        <meta   name="Revision"
+                content="1.0" />
+        <meta   name="Generator"
+                content="eclipse 3.6.1" />
+        <meta   name="Classification"
+                content="Development,Deployment" />
+        <meta   name="Copyright"
+                content="CopyRight@313DEVGRP. All Rights Reserved" />
+        <meta   name="title"
+                content="A-RMS By 313DEVGRP" />
+        <meta   name="revisit-after"
+                content="1 days" />
+        <meta   name="siteinfo"
+                content="http://www.a-rms.net/robots.txt" />
+        <meta   name="HandheldFriendly"
+                content="True" />
+        <meta   name="MobileOptimized"
+                content="320" />
+        <meta   property="og:type"
+                content="website" />
+        <meta   property="og:title"
+                content="A-RMS By 313DEVGRP" />
+        <meta   property="og:url"
+                content="http://www.a-rms.net/" />
+        <meta   property="og:site_name"
+                content="A-RMS By 313DEVGRP" />
 
 <?php
 if($config['cf_add_meta'])
@@ -139,23 +135,24 @@ echo '<link rel="stylesheet" href="'.run_replace('head_css_url', G5_THEME_CSS_UR
 ?>
 
     <!-- favicon -->
-    <link   rel="icon"
-            href="./img/313_logo.ico"
-            type="image/x-icon" />
-    <link   rel="shortcut icon"
-            href="./img/313_logo.ico"
-            type="image/x-icon" />
+    <link rel="icon" href="./img/313_logo.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="./img/313_logo.ico" type="image/x-icon" />
 
-    <link   href="/313devgrp/reference/lightblue4/docs/css/application.min.css"
-            rel="stylesheet" />
-    <link   href="/313devgrp/arms/css/override.css"
-            rel="stylesheet" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="/313devgrp/reference/jquery-plugins/html5shiv.js"></script>
+    <script src="/313devgrp/reference/jquery-plugins/respond.js"></script>
+    <![endif]-->
+
+    <link   href="/313devgrp/reference/lightblue4/docs/css/application.min.css" rel="stylesheet" />
+    <link   href="/313devgrp/arms/css/override.css" rel="stylesheet" />
 
     <!-- common libraries. required for every page-->
-    <script type="text/javascript" src="/313devgrp/reference/lightblue4/docs/lib/jquery/dist/jquery.min.js"></script>
-    <script type="text/javascript" src="/313devgrp/reference/lightblue4/docs/lib/jquery-ui/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="/313devgrp/reference/jquery-plugins/jquery-cookie-1.4.1/jquery.cookie.js"></script>
-    <script type="text/javascript" src="/313devgrp/reference/lightblue4/docs/lib/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/313devgrp/reference/lightblue4/docs/lib/jquery/dist/jquery.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/313devgrp/reference/lightblue4/docs/lib/jquery-ui/jquery-ui.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/313devgrp/reference/jquery-plugins/jquery-cookie-1.4.1/jquery.cookie.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/313devgrp/reference/lightblue4/docs/lib/bootstrap-sass/assets/javascripts/bootstrap.min.js" charset="utf-8"></script>
 
     <script type="text/javascript" src="/313devgrp/reference/jquery-plugins/jnotify_v2.1/jquery/jNotify.jquery.min.js" charset="utf-8"></script>
     <link rel="stylesheet" type="text/css" href="/313devgrp/reference/jquery-plugins/jnotify_v2.1/jquery/jNotify.jquery.css" media="screen" />
@@ -166,19 +163,19 @@ echo '<link rel="stylesheet" href="'.run_replace('head_css_url', G5_THEME_CSS_UR
     <link rel="stylesheet" type="text/css" href="/313devgrp/reference/jquery-plugins/Ladda-jQuery-0.6.0/dist/ladda.min.css" media="screen" />
 
     <!-- notification popup -->
-    <script src="/313devgrp/reference/lightblue4/docs/lib/messenger/build/js/messenger.min.js"></script>
-    <script src="/313devgrp/reference/lightblue4/docs/lib/messenger/build/js/messenger-theme-flat.js"></script>
+    <script src="/313devgrp/reference/lightblue4/docs/lib/messenger/build/js/messenger.min.js" charset="utf-8"></script>
+    <script src="/313devgrp/reference/lightblue4/docs/lib/messenger/build/js/messenger-theme-flat.js" charset="utf-8"></script>
 
     <!-- ckeditor4 성능 이슈로 인한 주석 처리. -->
     <script type="text/javascript" src="/313devgrp/reference/jquery-plugins/ckeditor4-4.22.1/ckeditor.js" charset="utf-8"></script>
 
-    <script type="text/javascript" src="/313devgrp/reference/lightblue4/docs/js/app.js"></script>
+    <script type="text/javascript" src="/313devgrp/reference/lightblue4/docs/js/app.js" charset="utf-8"></script>
 
     <!-- page interaction -->
-    <script type="text/javascript" src="/313devgrp/reference/jquery-plugins/topbar.js"></script>
+    <script type="text/javascript" src="/313devgrp/reference/jquery-plugins/topbar.js" charset="utf-8"></script>
 
     <!-- page js -->
-    <script type="text/javascript" src="http://www.313.co.kr:9999/arms/js/common.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/313devgrp/arms/js/common.js" charset="utf-8"></script>
     <script type="text/javascript" src="/313devgrp/arms/js/common/dwrChat.js" charset="utf-8"></script>
 
 <!--[if lte IE 8]>
