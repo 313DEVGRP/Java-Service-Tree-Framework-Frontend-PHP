@@ -6,7 +6,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$outlogin_skin_url.'/style.css">'
 ?>
 
 <!-- 로그인 전 아웃로그인 시작 { -->
-<section id="ol_before" class="ol">
+<section id="ol_before" class="ol" style="margin-bottom: 42px;">
 	<div id="ol_be_cate" style="display:none">
     	<h2><span class="sound_only">회원</span>로그인</h2>
     	<a href="<?php echo G5_BBS_URL ?>/register.php" class="join">회원가입</a>
@@ -16,14 +16,14 @@ add_stylesheet('<link rel="stylesheet" href="'.$outlogin_skin_url.'/style.css">'
             Sign in to your account
         </h4>
     </header>
-    <form name="foutlogin" action="<?php echo $outlogin_action_url ?>" onsubmit="return fhead_submit(this);" method="post" autocomplete="off">
+    <form name="foutlogin" action="<?php echo $outlogin_action_url ?>" onsubmit="return fhead_submit(this);" method="post" autocomplete="off" style="padding:0px">
     <fieldset>
-        <div class="ol_wr">
+        <div class="ol_wr" style="margin-top: 18px;">
             <input type="hidden" name="url" value="<?php echo $outlogin_url ?>">
             <label for="ol_id" id="ol_idlabel" class="sound_only">회원아이디<strong>필수</strong></label>
 
             <div class="">
-                <label for="username" class="">Username or email</label>
+                <label for="username" class="" style="margin-bottom: 5px;">Username or email</label>
 
                 <div class="input-group">
                     <span class="input-group-addon" id="addUsernameSkinFromCode">
@@ -37,10 +37,10 @@ add_stylesheet('<link rel="stylesheet" href="'.$outlogin_skin_url.'/style.css">'
             <label for="ol_pw" id="ol_pwlabel" class="sound_only">비밀번호<strong>필수</strong></label>
 
             <div class="" style="margin-top: 20px;">
-                <label for="password" class="">Password</label>
+                <label for="password" class="" style="margin-bottom: 5px;">Password</label>
 
                 <div class="input-group input-group-lg">
-                    <span class="input-group-addon" id="addPasswordSkinFromCode">
+                    <span class="input-group-addon" id="addPasswordSkinFromCode" style="padding: 10px 12px;">
                         <i class="fa fa-lock"></i>
                     </span>
                     <input type="password" name="mb_password" id="ol_pw" class="darkBack" required maxlength="20" placeholder="비밀번호">
@@ -54,15 +54,6 @@ add_stylesheet('<link rel="stylesheet" href="'.$outlogin_skin_url.'/style.css">'
             </div>
 
         </div>
-        <div class="ol_auto_wr darkBack">
-            <div id="ol_auto" class="chk_box">
-                <input type="checkbox" name="auto_login" value="1" id="auto_login" class="selec_chk">
-                <label for="auto_login" id="auto_login_label"><span></span>자동로그인</label>
-            </div>
-            <div id="ol_svc">
-                <a href="<?php echo G5_BBS_URL ?>/password_lost.php">ID/PW 찾기</a>
-            </div>
-        </div>
         <?php
         // 소셜로그인 사용시 소셜로그인 버튼
         @include_once(get_social_skin_path().'/social_login.skin.php');
@@ -75,11 +66,10 @@ add_stylesheet('<link rel="stylesheet" href="'.$outlogin_skin_url.'/style.css">'
 <?php echo visit('theme/basic'); // 접속자집계, 테마의 스킨을 사용하려면 스킨을 theme/basic 과 같이 지정 ?>
 
     <div id="ft_company" class="ft_cnt">
-        <h2>사이트 정보</h2>
+        <h2 style="margin-bottom: 10px;">사이트 정보</h2>
         <p class="ft_info font12 darkBack">
             회사명 : 313DEVGRP / 대표 : 이동민<br>
-            주소 : 서울특별시 강동구 천호동 570 강변그대가갤럭시 202동 1402호<br>
-            사업자 등록번호  : 313-77-33133<br>
+            주소 : 강동구 천호동 570 강변그대가갤럭시 202-1402<br>
             통신판매업신고번호 :  제 77구 - 313호<br>
             개인정보관리책임자 :  이동민 / 전화 : 010-5093-7313<br>
         </p>

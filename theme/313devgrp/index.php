@@ -410,7 +410,7 @@ include_once(G5_THEME_PATH.'/head.php');
                                         <div class="row">
 
                                             <div class="col-sm-12">
-                                                <section class="widget">
+                                                <section class="widget" style="padding: 12px 17px 19px 17px;">
                                                     <header>
                                                         <h4 style="font-size: 13px !important; font-weight: 300 !important;">
                                                             Community .
