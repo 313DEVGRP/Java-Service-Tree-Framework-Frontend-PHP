@@ -20,8 +20,8 @@ function execDocReady() {
             // 스크립트 실행 로직을 이곳에 추가합니다.
 
         })
-        .catch(function() {
-            console.error('플러그인 로드 중 오류 발생');
+        .catch(function(error) {
+            console.table('플러그인 로드 중 오류 발생' + error);
         });
 
 }
