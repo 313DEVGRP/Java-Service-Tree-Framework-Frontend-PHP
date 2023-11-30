@@ -224,7 +224,7 @@ define('G5_MYSQLI_USE', true);
 define('G5_BROWSCAP_USE', true);
 
 // 접속자 기록 때 Browscap 사용여부를 설정합니다.
-define('G5_VISIT_BROWSCAP_USE', false);
+define('G5_VISIT_BROWSCAP_USE', true);
 
 // ip 숨김방법 설정
 /* 123.456.789.012 ip의 숨김 방법을 변경하는 방법은
