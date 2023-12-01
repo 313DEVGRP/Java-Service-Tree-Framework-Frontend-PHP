@@ -104,6 +104,61 @@ include_once(G5_THEME_PATH.'/head.php');
                                                 <section class="widget">
                                                     <header>
                                                         <h4 style="font-size: 13px !important; font-weight: 300 !important;">
+                                                            문의/답변 .
+                                                            <small>Q/A Board</small>
+                                                        </h4>
+                                                        <div class="widget-controls" style="top: 2px !important;">
+                                                            <a  data-widgster="toleft"
+                                                                title="change width to left"
+                                                                href="#">
+                                                                <i class="glyphicon glyphicon-chevron-left"></i>
+                                                            </a>
+                                                            <a  data-widgster="expand"
+                                                                title="Expand"
+                                                                href="#">
+                                                                <i class="glyphicon glyphicon-chevron-up"></i>
+                                                            </a>
+                                                            <a  data-widgster="collapse"
+                                                                title="Collapse"
+                                                                href="#">
+                                                                <i class="glyphicon glyphicon-chevron-down"></i>
+                                                            </a>
+                                                            <a  data-widgster="toright"
+                                                                title="change width to right"
+                                                                href="#">
+                                                                <i class="glyphicon glyphicon-chevron-right"></i>
+                                                            </a>
+                                                            <a  data-widgster="restore"
+                                                                title="Restore"
+                                                                href="#">
+                                                                <span class="glyphicon glyphicon-repeat"></span>
+                                                            </a>
+                                                            <a  data-widgster="fullscreen"
+                                                                title="Fullscreen"
+                                                                href="#">
+                                                                <i class="glyphicon glyphicon-fullscreen"
+                                                                   style="font-size: 11px">
+                                                                </i>
+                                                            </a>
+                                                        </div>
+                                                    </header>
+                                                    <div class="body">
+
+                                                        <?php
+                                                            // 이 함수가 바로 최신글을 추출하는 역할을 합니다.
+                                                            // 사용방법 : latest(스킨, 게시판아이디, 출력라인, 글자수);
+                                                            // 테마의 스킨을 사용하려면 theme/basic 과 같이 지정
+                                                            echo latest('theme/basic', 'qa', 5, 24);		// 최소설치시 자동생성되는 공지사항게시판
+                                                        ?>
+
+                                                    </div>
+                                                </section>
+                                            </div>
+
+                                            <div class="col-sm-4">
+                                                <section class="widget">
+                                                    <header>
+                                                        <h4 style="font-size: 13px !important; font-weight: 300 !important;">
                                                             자유 게시판 .
                                                             <small>FreeBoard</small>
                                                         </h4>
@@ -154,61 +209,6 @@ include_once(G5_THEME_PATH.'/head.php');
                                                     </div>
                                                 </section>
                                             </div>
-
-                                            <div class="col-sm-4">
-                                                <section class="widget">
-                                                    <header>
-                                                        <h4 style="font-size: 13px !important; font-weight: 300 !important;">
-                                                            테크 게시판 .
-                                                            <small>TechBoard</small>
-                                                        </h4>
-                                                        <div class="widget-controls" style="top: 2px !important;">
-                                                            <a  data-widgster="toleft"
-                                                                title="change width to left"
-                                                                href="#">
-                                                                <i class="glyphicon glyphicon-chevron-left"></i>
-                                                            </a>
-                                                            <a  data-widgster="expand"
-                                                                title="Expand"
-                                                                href="#">
-                                                                <i class="glyphicon glyphicon-chevron-up"></i>
-                                                            </a>
-                                                            <a  data-widgster="collapse"
-                                                                title="Collapse"
-                                                                href="#">
-                                                                <i class="glyphicon glyphicon-chevron-down"></i>
-                                                            </a>
-                                                            <a  data-widgster="toright"
-                                                                title="change width to right"
-                                                                href="#">
-                                                                <i class="glyphicon glyphicon-chevron-right"></i>
-                                                            </a>
-                                                            <a  data-widgster="restore"
-                                                                title="Restore"
-                                                                href="#">
-                                                                <span class="glyphicon glyphicon-repeat"></span>
-                                                            </a>
-                                                            <a  data-widgster="fullscreen"
-                                                                title="Fullscreen"
-                                                                href="#">
-                                                                <i class="glyphicon glyphicon-fullscreen"
-                                                                   style="font-size: 11px">
-                                                                </i>
-                                                            </a>
-                                                        </div>
-                                                    </header>
-                                                    <div class="body">
-
-                                                        <?php
-                                                            // 이 함수가 바로 최신글을 추출하는 역할을 합니다.
-                                                            // 사용방법 : latest(스킨, 게시판아이디, 출력라인, 글자수);
-                                                            // 테마의 스킨을 사용하려면 theme/basic 과 같이 지정
-                                                            echo latest('theme/basic', 'techboard', 5, 24);		// 최소설치시 자동생성되는 공지사항게시판
-                                                        ?>
-
-                                                    </div>
-                                                </section>
-                                            </div>
                                         </div>
                                         <!-- 커뮤니티 끝 -->
 
@@ -221,7 +221,7 @@ include_once(G5_THEME_PATH.'/head.php');
                                                     <header>
                                                         <h4 style="font-size: 13px !important; font-weight: 300 !important;">
                                                             A-RMS .
-                                                            <small>Data</small>
+                                                            <small>infomation</small>
                                                         </h4>
                                                         <div class="widget-controls" style="top: 2px !important;">
                                                             <a  data-widgster="toleft"
@@ -275,8 +275,8 @@ include_once(G5_THEME_PATH.'/head.php');
                                                 <section class="widget">
                                                     <header>
                                                         <h4 style="font-size: 13px !important; font-weight: 300 !important;">
-                                                            릴리즈 노트 .
-                                                            <small>ReleaseNote</small>
+                                                            업데이트 노트 .
+                                                            <small>UpdateNote</small>
                                                         </h4>
                                                         <div class="widget-controls" style="top: 2px !important;">
                                                             <a  data-widgster="toleft"
@@ -331,7 +331,7 @@ include_once(G5_THEME_PATH.'/head.php');
                                                     <header>
                                                         <h4 style="font-size: 13px !important; font-weight: 300 !important;">
                                                             사용자 메뉴얼 .
-                                                            <small>Guide</small>
+                                                            <small>userGuide</small>
                                                         </h4>
                                                         <div class="widget-controls" style="top: 2px !important;">
                                                             <a  data-widgster="toleft"
