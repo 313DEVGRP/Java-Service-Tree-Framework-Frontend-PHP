@@ -38,7 +38,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
                         <h4 style="font-size: 13px !important; font-weight: 300 !important;">
                             <img src="/313devgrp/arms/img/leaf.gif"
                                  style="width: 25px; vertical-align: unset;">
-                            Java Service Tree Framework DevTools
+                            Java Service Tree Framework Community
                         </h4>
                     </header>
                     <div class="body">
@@ -51,7 +51,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
                                 					style="font-weight: bold">
                                 					<i  class="fa fa-sort-amount-asc"
                                 						style="vertical-align: middle;font-size: 14px;"></i>
-                                					 제품(서비스) 조회 및 선택
+                                					 게시판
                                 			</span>
                                 		</h4>
                                 		<div class="widget-controls">
@@ -92,7 +92,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
                                 		<div class="gradient_middle_border" style="width: 100%; height: 2px"></div>
                                 		<blockquote class="font13"
                                 					style="margin-top: 5px;">
-                                			1. 제품(서비스) 선택
+                                			Gnuboard5
                                 			<div style="float: right;">
                                 				<button class="btn btn-transparent btn-xs"
                                 						style="margin-top: -3px; color: #acacac; background: rgba(51,51,51,.2); padding: 1px 9px;"
@@ -134,7 +134,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 
                                 				<!-- 게시판 페이지 정보 및 버튼 시작 { -->
                                 				<div id="bo_btn_top">
-                                					<div id="bo_list_total">
+                                					<div id="bo_list_total" style="color:#acacac">
                                 						<span>Total <?php echo number_format($total_count) ?>건</span>
                                 						<?php echo $page ?> 페이지
                                 					</div>
