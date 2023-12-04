@@ -17,6 +17,29 @@ function execDocReady() {
 
             //좌측 메뉴
             $('.widget').widgster();
+
+            var str = window.location.href;
+            if (str.indexOf("php/gnuboard5/") > 0) {
+
+                const urlParams = new URL(location.href).searchParams;
+                const name = urlParams.get('name');
+                console.log("check" + name);
+                if (str.indexOf("index.php") > 0) {
+
+                } else if (str.indexOf("bo_table=notice") > 0) {
+                    alert("check");
+                } else if (str.indexOf("index.php") > 0) {
+
+                } else if (str.indexOf("index.php") > 0) {
+
+                } else if (str.indexOf("index.php") > 0) {
+
+                } else {
+                    setSideMenu("sidebar_menu_community", "");
+                }
+
+            }
+
             // 스크립트 실행 로직을 이곳에 추가합니다.
 
         })

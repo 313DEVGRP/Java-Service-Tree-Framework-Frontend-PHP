@@ -17,6 +17,25 @@ function execDocReady() {
 
             //좌측 메뉴
             $('.widget').widgster();
+
+            var str = window.location.href;
+            if (str.indexOf("php/gnuboard5/") > 0) {
+
+                if (str.indexOf("index.php") > 0) {
+                    setSideMenu("sidebar_menu_community", "");
+                } else if (str.indexOf("bo_table=notice") > 0) {
+                    setSideMenu("sidebar_menu_community", "sidebar_menu_community_notice");
+                } else if (str.indexOf("bo_table=qa") > 0) {
+                    setSideMenu("sidebar_menu_community", "sidebar_menu_community_qa");
+                } else if (str.indexOf("ibo_table=releasenote") > 0) {
+                    setSideMenu("sidebar_menu_community", "sidebar_menu_community_releasenote");
+                } else if (str.indexOf("bo_table=manual") > 0) {
+                    setSideMenu("sidebar_menu_community", "sidebar_menu_community_manual");
+                } else {
+                    setSideMenu("sidebar_menu_community", "");
+                }
+
+            }
             // 스크립트 실행 로직을 이곳에 추가합니다.
 
         })

@@ -12,23 +12,23 @@ if ($is_nogood) $colspan++;
 add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0);
 ?>
 <div    class="logo"
-        data-include="html/template/page-logo.html"
+        data-include="/php/gnuboard5/html/template/page-logo.html"
         style="left: 35px !important; position: absolute !important">
 </div>
 
 <nav    id="sidebar"
         class="sidebar nav-collapse collapse"
-        data-include="html/template/page-sidebar.html">
+        data-include="/php/gnuboard5/html/template/page-sidebar.html">
 </nav>
 
 <div    class="wrap">
     <header class="page-header"
-            data-include="html/template/page-header.html">
+            data-include="/php/gnuboard5/html/template/page-header.html">
     </header>
 
     <div    class="content container">
         <section    class="widgetheader"
-                    data-include="html/template/content-header.html">
+                    data-include="/php/gnuboard5/html/template/content-header.html">
         </section>
 
         <div class="row">
@@ -365,7 +365,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
         </div>
 
         <footer class="content-footer pull-right"
-                data-include="html/template/content-footer.html">
+                data-include="/php/gnuboard5/html/template/content-footer.html">
         </footer>
     </div>
 </div>
