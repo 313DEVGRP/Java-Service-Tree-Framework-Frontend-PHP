@@ -36,7 +36,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
                         <h4 style="font-size: 13px !important; font-weight: 300 !important;">
                             <img src="/313devgrp/arms/img/leaf.gif"
                                  style="width: 25px; vertical-align: unset;">
-                            Java Service Tree Framework DevTools
+                            Java Service Tree Framework Community
                         </h4>
                     </header>
                     <div class="body">
@@ -49,7 +49,8 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
                                 			<?php if ($category_name) { ?>
                                 			<span class="bo_v_cate"><?php echo $view['ca_name']; // 분류 출력 끝 ?></span>
                                 			<?php } ?>
-                                			<span class="bo_v_tit">
+                                			<span class="bo_v_tit" style="color:#a4c6ff">
+                                			    <span style="color:#f8f8f8">글제목 :</span>
                                 			<?php
                                 			echo cut_str(get_text($view['wr_subject']), 70); // 글제목 출력
                                 			?></span>
@@ -112,6 +113,8 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
                                 		</div>
                                 		<!-- } 게시물 상단 버튼 끝 -->
                                 	</section>
+                                    <div class="gradient_middle_border" style="width: 100%; height: 2px"></div>
+
 
                                 	<section id="bo_v_atc">
                                 		<h2 id="bo_v_atc_title">본문</h2>

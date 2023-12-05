@@ -163,6 +163,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
                                 				<!-- } 게시판 페이지 정보 및 버튼 끝 -->
 
                                 				<div class="tbl_head01 tbl_wrap">
+                                				    <div class="gradient_middle_border" style="width: 100%; height: 2px"></div>
                                 					<table>
                                 					<caption><?php echo $board['bo_subject'] ?> 목록</caption>
                                 					<thead>
@@ -179,10 +180,10 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
                                 						<th scope="col">번호</th>
                                 						<th scope="col">제목</th>
                                 						<th scope="col">글쓴이</th>
-                                						<th scope="col"><?php echo subject_sort_link('wr_hit', $qstr2, 1) ?>조회 </a></th>
+                                						<th scope="col">조회</th>
                                 						<?php if ($is_good) { ?><th scope="col"><?php echo subject_sort_link('wr_good', $qstr2, 1) ?>추천 </a></th><?php } ?>
                                 						<?php if ($is_nogood) { ?><th scope="col"><?php echo subject_sort_link('wr_nogood', $qstr2, 1) ?>비추천 </a></th><?php } ?>
-                                						<th scope="col"><?php echo subject_sort_link('wr_datetime', $qstr2, 1) ?>날짜  </a></th>
+                                						<th scope="col">날짜</th>
                                 					</tr>
                                 					</thead>
                                 					<tbody>
