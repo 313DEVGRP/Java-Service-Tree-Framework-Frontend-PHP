@@ -97,23 +97,23 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
                                     <div class="bo_w_info write_div">
                                         <?php if ($is_name) { ?>
                                             <label for="wr_name" class="sound_only">이름<strong>필수</strong></label>
-                                            <input type="text" name="wr_name" value="<?php echo $name ?>" id="wr_name" required class="frm_input half_input required" placeholder="이름">
+                                            <input type="text" name="wr_name" value="<?php echo $name ?>" id="wr_name" required class="frm_input half_input required" placeholder="이름" style="background: rgba(51, 51, 51, 0.4) !important;border: 1px solid rgba(51, 51, 51, 0.425) !important;">
                                         <?php } ?>
 
                                         <?php if ($is_password) { ?>
                                             <label for="wr_password" class="sound_only">비밀번호<strong>필수</strong></label>
-                                            <input type="password" name="wr_password" id="wr_password" <?php echo $password_required ?> class="frm_input half_input <?php echo $password_required ?>" placeholder="비밀번호">
+                                            <input type="password" name="wr_password" id="wr_password" <?php echo $password_required ?> class="frm_input half_input <?php echo $password_required ?>" placeholder="비밀번호" style="background: rgba(51, 51, 51, 0.4) !important;border: 1px solid rgba(51, 51, 51, 0.425) !important;">
                                         <?php } ?>
 
                                         <?php if ($is_email) { ?>
                                             <label for="wr_email" class="sound_only">이메일</label>
-                                            <input type="text" name="wr_email" value="<?php echo $email ?>" id="wr_email" class="frm_input half_input email " placeholder="이메일">
+                                            <input type="text" name="wr_email" value="<?php echo $email ?>" id="wr_email" class="frm_input half_input email " placeholder="이메일" style="background: rgba(51, 51, 51, 0.4) !important;border: 1px solid rgba(51, 51, 51, 0.425) !important;">
                                         <?php } ?>
 
 
                                         <?php if ($is_homepage) { ?>
                                             <label for="wr_homepage" class="sound_only">홈페이지</label>
-                                            <input type="text" name="wr_homepage" value="<?php echo $homepage ?>" id="wr_homepage" class="frm_input half_input" size="50" placeholder="홈페이지">
+                                            <input type="text" name="wr_homepage" value="<?php echo $homepage ?>" id="wr_homepage" class="frm_input half_input" size="50" placeholder="홈페이지" style="background: rgba(51, 51, 51, 0.4) !important;border: 1px solid rgba(51, 51, 51, 0.425) !important;">
                                         <?php } ?>
                                     </div>
 
@@ -130,7 +130,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
                                         <label for="wr_subject" class="sound_only">제목<strong>필수</strong></label>
 
                                         <div id="autosave_wrapper" class="write_div">
-                                            <input type="text" name="wr_subject" value="<?php echo $subject ?>" id="wr_subject" required class="frm_input full_input required" size="50" maxlength="255" placeholder="제목">
+                                            <input type="text" name="wr_subject" value="<?php echo $subject ?>" id="wr_subject" required class="frm_input full_input required" size="50" maxlength="255" placeholder="제목" style="background: rgba(51, 51, 51, 0.4) !important;border: 1px solid rgba(51, 51, 51, 0.425) !important;color:#f8f8f8;">
                                             <?php if ($is_member) { // 임시 저장된 글 기능 ?>
                                             <script src="<?php echo G5_JS_URL; ?>/autosave.js"></script>
                                             <?php if($editor_content_js) echo $editor_content_js; ?>
