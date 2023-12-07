@@ -162,6 +162,13 @@ echo '<link rel="stylesheet" href="'.run_replace('head_css_url', G5_THEME_CSS_UR
     <script type="text/javascript" src="/313devgrp/reference/jquery-plugins/Ladda-jQuery-0.6.0/js/ladda.js" charset="utf-8"></script>
     <link rel="stylesheet" type="text/css" href="/313devgrp/reference/jquery-plugins/Ladda-jQuery-0.6.0/dist/ladda.min.css" media="screen" />
 
+    <!-- Tour-Guide -->
+    <script type="text/javascript" src="/313devgrp/reference/jquery-plugins/tourguide-js-0.0.1-alpha/dist/tour.js" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="/313devgrp/reference/jquery-plugins/tourguide-js-0.0.1-alpha/dist/css/tour.min.css" media="screen" />
+    <script type="text/javascript" src="/313devgrp/arms/js/common/tourGuide/tgApi.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/313devgrp/arms/js/common/tourGuide/tgGroup.js" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="/313devgrp/arms/css/tourGuide/tourGuideCustom.css" media="screen"/>
+
     <!-- notification popup -->
     <script src="/313devgrp/reference/lightblue4/docs/lib/messenger/build/js/messenger.min.js" charset="utf-8"></script>
     <script src="/313devgrp/reference/lightblue4/docs/lib/messenger/build/js/messenger-theme-flat.js" charset="utf-8"></script>
