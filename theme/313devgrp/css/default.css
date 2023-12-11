@@ -248,7 +248,7 @@ box-shadow:0 2px 5px rgba(0,0,0,0.2)}
 #bo_v_con li {display:list-item}
 
 /* 버튼 */
-a.btn,.btn {line-height:35px;height:35px;padding:0 10px;text-align:center;font-weight:bold;border:0;font-size:1.4em;
+a.btn,.btn {line-height:35px;height:35px;padding:0 10px;text-align:center;border:0;font-size:1.4em;
 -webkit-transition:background-color 0.3s ease-out;
 -moz-transition:background-color 0.3s ease-out;
 -o-transition:background-color 0.3s ease-out;
