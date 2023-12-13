@@ -118,10 +118,6 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 
                                 	<section id="bo_v_atc">
                                 		<h2 id="bo_v_atc_title">본문</h2>
-                                		<div id="bo_v_share">
-                                			<?php include_once(G5_SNS_PATH."/view.sns.skin.php"); ?>
-                                			<?php if ($scrap_href) { ?><a href="<?php echo $scrap_href;  ?>" target="_blank" class="btn btn_b03" onclick="win_scrap(this.href); return false;"><i class="fa fa-bookmark" aria-hidden="true"></i> 스크랩</a><?php } ?>
-                                		</div>
 
                                 		<?php
                                 		// 파일 출력
