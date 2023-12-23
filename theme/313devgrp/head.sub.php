@@ -135,55 +135,55 @@ echo '<link rel="stylesheet" href="'.run_replace('head_css_url', G5_THEME_CSS_UR
 ?>
 
     <!-- favicon -->
-    <link rel="icon" href="/313devgrp/arms/img/313_logo.ico" type="image/x-icon" />
-    <link rel="shortcut icon" href="/313devgrp/arms/img/313_logo.ico" type="image/x-icon" />
+    <link rel="icon" href="/arms/img/313_logo.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/arms/img/313_logo.ico" type="image/x-icon" />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-    <script src="/313devgrp/reference/jquery-plugins/html5shiv.js"></script>
-    <script src="/313devgrp/reference/jquery-plugins/respond.js"></script>
+    <script src="/reference/jquery-plugins/html5shiv.js"></script>
+    <script src="/reference/jquery-plugins/respond.js"></script>
     <![endif]-->
 
-    <link   href="/313devgrp/reference/lightblue4/docs/css/application.min.css" rel="stylesheet" />
-    <link   href="/313devgrp/arms/css/override.css" rel="stylesheet" />
+    <link   href="/reference/lightblue4/docs/css/application.min.css" rel="stylesheet" />
+    <link   href="/arms/css/override.css" rel="stylesheet" />
 
     <!-- common libraries. required for every page-->
-    <script type="text/javascript" src="/313devgrp/reference/lightblue4/docs/lib/jquery/dist/jquery.min.js" charset="utf-8"></script>
-    <script type="text/javascript" src="/313devgrp/reference/lightblue4/docs/lib/jquery-ui/jquery-ui.min.js" charset="utf-8"></script>
-    <script type="text/javascript" src="/313devgrp/reference/jquery-plugins/jquery-cookie-1.4.1/jquery.cookie.js" charset="utf-8"></script>
-    <script type="text/javascript" src="/313devgrp/reference/lightblue4/docs/lib/bootstrap-sass/assets/javascripts/bootstrap.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/reference/lightblue4/docs/lib/jquery/dist/jquery.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/reference/lightblue4/docs/lib/jquery-ui/jquery-ui.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/reference/jquery-plugins/jquery-cookie-1.4.1/jquery.cookie.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/reference/lightblue4/docs/lib/bootstrap-sass/assets/javascripts/bootstrap.min.js" charset="utf-8"></script>
 
-    <script type="text/javascript" src="/313devgrp/reference/jquery-plugins/jnotify_v2.1/jquery/jNotify.jquery.min.js" charset="utf-8"></script>
-    <link rel="stylesheet" type="text/css" href="/313devgrp/reference/jquery-plugins/jnotify_v2.1/jquery/jNotify.jquery.css" media="screen" />
+    <script type="text/javascript" src="/reference/jquery-plugins/jnotify_v2.1/jquery/jNotify.jquery.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="/reference/jquery-plugins/jnotify_v2.1/jquery/jNotify.jquery.css" media="screen" />
 
     <!-- Ladda -->
-    <script type="text/javascript" src="/313devgrp/reference/jquery-plugins/Ladda-jQuery-0.6.0/dist/spin.min.js" charset="utf-8"></script>
-    <script type="text/javascript" src="/313devgrp/reference/jquery-plugins/Ladda-jQuery-0.6.0/js/ladda.js" charset="utf-8"></script>
-    <link rel="stylesheet" type="text/css" href="/313devgrp/reference/jquery-plugins/Ladda-jQuery-0.6.0/dist/ladda.min.css" media="screen" />
+    <script type="text/javascript" src="/reference/jquery-plugins/Ladda-jQuery-0.6.0/dist/spin.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/reference/jquery-plugins/Ladda-jQuery-0.6.0/js/ladda.js" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="/reference/jquery-plugins/Ladda-jQuery-0.6.0/dist/ladda.min.css" media="screen" />
 
     <!-- Tour-Guide -->
-    <script type="text/javascript" src="/313devgrp/reference/jquery-plugins/tourguide-js-0.0.1-alpha/dist/tour.js" charset="utf-8"></script>
-    <link rel="stylesheet" type="text/css" href="/313devgrp/reference/jquery-plugins/tourguide-js-0.0.1-alpha/dist/css/tour.min.css" media="screen" />
-    <script type="text/javascript" src="/313devgrp/arms/js/common/tourGuide/tgApi.js" charset="utf-8"></script>
-    <script type="text/javascript" src="/313devgrp/arms/js/common/tourGuide/tgGroup.js" charset="utf-8"></script>
-    <link rel="stylesheet" type="text/css" href="/313devgrp/arms/css/tourGuide/tourGuideCustom.css" media="screen"/>
+    <script type="text/javascript" src="/reference/jquery-plugins/tourguide-js-0.0.1-alpha/dist/tour.js" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="/reference/jquery-plugins/tourguide-js-0.0.1-alpha/dist/css/tour.min.css" media="screen" />
+    <script type="text/javascript" src="/arms/js/common/tourGuide/tgApi.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/arms/js/common/tourGuide/tgGroup.js" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="/arms/css/tourGuide/tourGuideCustom.css" media="screen"/>
 
     <!-- notification popup -->
-    <script src="/313devgrp/reference/lightblue4/docs/lib/messenger/build/js/messenger.min.js" charset="utf-8"></script>
-    <script src="/313devgrp/reference/lightblue4/docs/lib/messenger/build/js/messenger-theme-flat.js" charset="utf-8"></script>
+    <script src="/reference/lightblue4/docs/lib/messenger/build/js/messenger.min.js" charset="utf-8"></script>
+    <script src="/reference/lightblue4/docs/lib/messenger/build/js/messenger-theme-flat.js" charset="utf-8"></script>
 
     <!-- ckeditor4 성능 이슈로 인한 주석 처리. -->
-    <script type="text/javascript" src="/313devgrp/reference/jquery-plugins/ckeditor4-4.22.1/ckeditor.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/reference/jquery-plugins/ckeditor4-4.22.1/ckeditor.js" charset="utf-8"></script>
 
-    <script type="text/javascript" src="/313devgrp/reference/lightblue4/docs/js/app.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/reference/lightblue4/docs/js/app.js" charset="utf-8"></script>
 
     <!-- page interaction -->
-    <script type="text/javascript" src="/313devgrp/reference/jquery-plugins/topbar.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/reference/jquery-plugins/topbar.js" charset="utf-8"></script>
 
     <!-- page js -->
-    <script type="text/javascript" src="/313devgrp/arms/js/common.js" charset="utf-8"></script>
-    <script type="text/javascript" src="/313devgrp/arms/js/common/dwrChat.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/arms/js/common.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/arms/js/common/dwrChat.js" charset="utf-8"></script>
 
 <!--[if lte IE 8]>
 <script src="<?php echo G5_JS_URL ?>/html5.js"></script>

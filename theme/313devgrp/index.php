@@ -34,7 +34,7 @@ include_once(G5_THEME_PATH.'/head.php');
                                 <section class="widget">
                                     <header>
                                         <h4 style="font-size: 13px !important; font-weight: 300 !important;">
-                                            <img src="/313devgrp/arms/img/leaf.gif"
+                                            <img src="/arms/img/leaf.gif"
                                                  style="width: 25px; vertical-align: unset;">
                                             Dashboard
                                         </h4>
@@ -399,7 +399,7 @@ include_once(G5_THEME_PATH.'/head.php');
                                 <section class="widget">
                                     <header>
                                         <h4 style="font-size: 13px !important; font-weight: 300 !important;">
-                                            <img src="/313devgrp/arms/img/bestqulity.png"
+                                            <img src="/arms/img/bestqulity.png"
                                                  style="width: 18px; vertical-align: unset;">
                                             Login
                                         </h4>

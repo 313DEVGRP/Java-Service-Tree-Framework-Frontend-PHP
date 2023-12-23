@@ -30,7 +30,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
                 <section class="widget">
                     <header>
                         <h4 style="font-size: 13px !important; font-weight: 300 !important;">
-                            <img src="/313devgrp/arms/img/leaf.gif"
+                            <img src="/arms/img/leaf.gif"
                                  style="width: 25px; vertical-align: unset;">
                             Java Service Tree Framework DevTools
                         </h4>
