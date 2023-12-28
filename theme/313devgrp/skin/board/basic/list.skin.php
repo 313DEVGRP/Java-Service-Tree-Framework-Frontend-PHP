@@ -220,7 +220,8 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
                                 							<a href="<?php echo $list[$i]['ca_name_href'] ?>" class="bo_cate_link"><?php echo $list[$i]['ca_name'] ?></a>
                                 							<?php } ?>
                                 							<div class="bo_tit">
-                                								<a href="<?php echo $list[$i]['href'] ?>">
+                                								<a href="#"
+                                                                   onclick="gnuboardList('<?php echo $list[$i]['href'] ?>')">
                                 									<?php echo $list[$i]['icon_reply'] ?>
                                 									<?php
                                 										if (isset($list[$i]['icon_secret'])) echo rtrim($list[$i]['icon_secret']);

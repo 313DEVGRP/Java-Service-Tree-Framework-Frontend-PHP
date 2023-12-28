@@ -67,7 +67,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$outlogin_skin_url.'/style.css">'
 
     <div id="ft_company" class="ft_cnt">
         <h2 style="margin-bottom: 10px;">사이트 정보</h2>
-        <p class="ft_info font12 darkBack">
+        <p class="ft_info font12 darkBack" style="text-align: left;">
             회사명 : 313DEVGRP / 대표 : 이동민<br>
             주소 : 강동구 천호동 570 강변그대가갤럭시 202-1402<br>
             통신판매업신고번호 :  제 77구 - 313호<br>
