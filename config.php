@@ -81,7 +81,8 @@ if (G5_DOMAIN) {
     define('G5_URL', G5_DOMAIN);
 } else {
     if (isset($g5_path['url']))
-        define('G5_URL', $g5_path['url']);
+        //define('G5_URL', $g5_path['url']);
+        define('G5_URL', '/php/gnuboard5');
     else
         define('G5_URL', '');
 }
