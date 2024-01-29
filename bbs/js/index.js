@@ -76,7 +76,7 @@ function execDocReady() {
                     setSideMenu("sidebar_menu_community", "sidebar_menu_community_notice");
                 } else if (str.indexOf("bo_table=qa") > 0) {
                     setSideMenu("sidebar_menu_community", "sidebar_menu_community_qa");
-                } else if (str.indexOf("ibo_table=releasenote") > 0) {
+                } else if (str.indexOf("bo_table=releasenote") > 0) {
                     setSideMenu("sidebar_menu_community", "sidebar_menu_community_releasenote");
                 } else if (str.indexOf("bo_table=manual") > 0) {
                     setSideMenu("sidebar_menu_community", "sidebar_menu_community_manual");
