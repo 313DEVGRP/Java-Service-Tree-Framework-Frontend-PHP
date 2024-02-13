@@ -96,12 +96,5 @@ function chk_captcha()
         }
     });
 
-    if (!captcha_result) {
-        alert('자동등록방지 입력 글자가 틀렸거나 입력 횟수가 넘었습니다.\n\n새로고침을 클릭하여 다시 입력해 주십시오.');
-        captcha_key.select();
-        captcha_key.focus();
-        return false;
-    }
-
     return true;
 }

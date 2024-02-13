@@ -15,7 +15,7 @@ $fontsdir = 'fonts';
 
 # CAPTCHA string length
 //$length = mt_rand(5,6); # random 5 or 6
-$length = 6;
+$length = 4;
 
 # CAPTCHA image size (you do not need to change it, whis parameters is optimal)
 $width = 160;
@@ -27,10 +27,10 @@ $height = 60;
 $fluctuation_amplitude = 5; // 파동&진폭 원래대로 151029 15:00
 
 #noise
-//$white_noise_density=0; // no white noise
-$white_noise_density=1/6;
-//$black_noise_density=0; // no black noise
-$black_noise_density=1/20;
+$white_noise_density=0; // no white noise
+//$white_noise_density=1/6;
+$black_noise_density=0; // no black noise
+//$black_noise_density=1/20;
 
 # increase safety by prevention of spaces between symbols
 $no_spaces = false;
@@ -48,4 +48,4 @@ $background_color = array(255, 255, 255);
 # JPEG quality of CAPTCHA image (bigger is better quality, but larger file size)
 $jpeg_quality = 90;
 
-$wave = true;
+$wave = false;

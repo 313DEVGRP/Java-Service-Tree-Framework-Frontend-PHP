@@ -18,13 +18,13 @@ body,#smart_editor2,#smart_editor2 p,#smart_editor2 h1,#smart_editor2 h2,#smart_
 #smart_editor2 .se2_header{margin:10px 0 29px 0}
 #smart_editor2 .se2_bi{float:left;width:93px;height:20px;margin:0;padding:0;background:url("../../img/ko_KR/btn_set.png?160622") -343px -358px no-repeat;font-size:0;line-height:0;text-indent:-10000px;vertical-align:middle}
 #smart_editor2 .se2_allhelp{display:inline-block;width:18px;height:18px;padding:0;background:url("../../img/ko_KR/btn_set.png?160622") -437px -358px no-repeat;font-size:0;line-height:0;text-indent:-10000px;vertical-align:middle}
-#smart_editor2 #smart_editor2_content{position:relative;border:1px dashed #555555}
+#smart_editor2 #smart_editor2_content{position:relative;border:1px dashed #979797}
 #smart_editor2 .se2_tool{overflow:visible;position:relative;z-index:25}
 /* EDITINGAREA */
 #smart_editor2 .se2_input_area{position:relative;z-index:22;height:400px;margin:0;padding:0;*zoom:1}
 #smart_editor2 .se2_input_wysiwyg,#smart_editor2 .se2_input_syntax{display:block;overflow:auto;width:100%;height:100%;margin:0;*margin:-1px 0 0 0;border:0}
 /* EDITINGMODE */
-#smart_editor2 .se2_conversion_mode{position:relative;height:15px;padding-top:1px;border-top:1px dashed #555555;}
+#smart_editor2 .se2_conversion_mode{position:relative;height:15px;padding-top:1px;border-top:1px dashed #979797;}
 #smart_editor2 .se2_inputarea_controller{display:block;clear:both;position:relative;width:100%;height:15px;text-align:center;cursor:n-resize;background:#43454C;}
 #smart_editor2 .se2_inputarea_controller span,#smart_editor2 .controller_on span{background:url("../../img/ico_extend.png") no-repeat}
 #smart_editor2 .se2_inputarea_controller span{position:static;display:inline-block;visibility:visible;overflow:hidden;height:15px;padding-left:11px;background-position:0 2px;color:#888;font-size:11px;letter-spacing:-1px;line-height:16px;white-space:nowrap}
