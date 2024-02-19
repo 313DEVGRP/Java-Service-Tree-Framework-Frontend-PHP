@@ -33,3 +33,9 @@ g
 7plugin/editor/smarteditor2/smart_editor2_inputarea.html,2\7\27a42a94b989713a06e66fe37ea3a864b11280c3
 i
 9plugin/editor/smarteditor2/css/ko_KR/smart_editor2_in.css,d\4\d49cc169fa4f5be47bed902c43a9d165b911c365
+V
+&skin/board/basic/view_comment.skin.php,8\8\88e4ab7005b07391d7f040a738d66ef3809bbadc
+S
+#plugin/kcaptcha/kcaptcha_config.php,3\3\3360f30cd5e4247d986ce157c936b54a2d78f589
+Y
+)plugin/editor/smarteditor2/editor.lib.php,1\e\1ef216ef2d585be32cc1361571dad6f25afe2de1
