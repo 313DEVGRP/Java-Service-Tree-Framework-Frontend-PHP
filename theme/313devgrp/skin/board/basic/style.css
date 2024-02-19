@@ -4,7 +4,7 @@
 #bo_list {position:relative;margin-bottom:20px}
 #bo_list:after {display:block;visibility:hidden;clear:both;content:""}
 #bo_list .td_board {width:120px;text-align:center}
-#bo_list .td_chk {width:30px;text-align:center;border-top:1px solid #ecf0f1;border-bottom:1px solid #ecf0f1}
+#bo_list .td_chk {width:30px;text-align:center;}
 #bo_list .td_date {width:60px;text-align:center}
 #bo_list .td_datetime {width:60px;text-align:center}
 #bo_list .td_group {width:100px;text-align:center}
@@ -17,8 +17,6 @@
 #bo_list .td_numbig {width:80px;text-align:center}
 #bo_list .txt_active {color:#5d910b}
 #bo_list .txt_expired {color:#ccc}
-#bo_list tbody tr {border-left:2px solid transparent}
-#bo_list tbody tr:hover {border-left:2px solid #acacac}
 tr.even {background: rgba(51, 51, 51, 0.425);}
 
 #bo_cate {margin:25px 0}
