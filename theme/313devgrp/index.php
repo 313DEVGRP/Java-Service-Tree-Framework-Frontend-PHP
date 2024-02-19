@@ -35,7 +35,7 @@ include_once(G5_THEME_PATH.'/head.php');
                                     <header>
                                         <h4 style="font-size: 13px !important; font-weight: 300 !important;">
                                             <img src="/arms/img/leaf.gif"
-                                                 style="width: 25px; vertical-align: unset;">
+                                                 style="width: 25px; vertical-align: text-bottom;">
                                             Dashboard
                                         </h4>
                                     </header>
@@ -91,9 +91,9 @@ include_once(G5_THEME_PATH.'/head.php');
                                                         <div class="thumbnail">
                                                             <img src="/arms/img/concept.png" alt="">
                                                             <div class="caption">
-                                                                <h4>Thumbnail label</h4>
-                                                                <p><strong>You will never know exactly how something will go until you try it.</strong> You can think three hundred times and still have no precise result... </p>
-                                                                <p><a href="#" class="btn btn-danger">Favorite</a> <a href="#" class="btn btn-inverse">Read more...</a></p>
+                                                                <h4 style="font-size:14px;">A-RMS 와 JIRA 관계도</h4>
+                                                                <p style="font-size:13px;"><strong>A-RMS</strong>는 요구사항을 관리하며, <strong>JIRA</strong>에 <strong>Issue</strong>로 전환하고, Project에 전파하고, 수집하여, 통계를 내는 시스템입니다.</p>
+                                                                <p style="padding-top:10px;"><a href="http://www.313.co.kr/jira/secure/Dashboard.jspa" target="_blank" class="btn btn-warning btn-sm" style="font-size:13px;line-height: 30px;height: 30px;">Demo OnPremise Jira</a> <a href="https://313devgrp.atlassian.net" target="_blank" class="btn btn-warning btn-sm" style="font-size:13px;line-height: 30px;height: 30px;">Demo Cloud Jira</a></p>
                                                             </div>
                                                         </div>
 
@@ -347,7 +347,7 @@ include_once(G5_THEME_PATH.'/head.php');
                                     <header>
                                         <h4 style="font-size: 13px !important; font-weight: 300 !important;">
                                             <img src="/arms/img/bestqulity.png"
-                                                 style="width: 18px; vertical-align: unset;">
+                                                 style="width: 18px; vertical-align: text-bottom;">
                                             Login
                                         </h4>
                                     </header>
