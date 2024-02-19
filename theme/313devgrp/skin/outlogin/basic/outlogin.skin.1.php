@@ -68,7 +68,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$outlogin_skin_url.'/style.css">'
     <div id="ft_company" class="ft_cnt">
         <h2 style="margin-bottom: 10px;">사이트 정보</h2>
         <p class="ft_info font12 darkBack" style="text-align: left;">
-            회사명 : PROJECT313 / 대표 : 이동민<br>
+            회사명 : 313DEVGRP / 대표 : 이동민<br>
             주소 : 서울특별시 강남구 도산대로 313 B/D 06021<br>
             통신판매업신고번호 :  제 77구 - 313호<br>
             개인정보관리책임자 :  이동민 / 전화 : 010-5093-7313<br>

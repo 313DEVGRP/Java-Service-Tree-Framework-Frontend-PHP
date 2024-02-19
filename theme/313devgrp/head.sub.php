@@ -34,7 +34,7 @@ header("Pragma: no-cache"); // HTTP/1.0
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <title>A-RMS By PROJECT313</title>
+    <title>A-RMS By 313DEVGRP</title>
 
         <meta   charset="utf-8" />
         <meta   http-equiv="X-UA-Compatible"
@@ -45,7 +45,7 @@ header("Pragma: no-cache"); // HTTP/1.0
         <meta   http-equiv="Expire"
                 content="-1" />
         <meta   http-equiv="Keywords"
-                content="A-RMS By PROJECT313" />
+                content="A-RMS By 313DEVGRP" />
         <meta   http-equiv="Reply-to"
                 content="313cokr@gmail.com" />
         <meta   http-equiv="Content-Language"
@@ -70,7 +70,7 @@ header("Pragma: no-cache"); // HTTP/1.0
         <meta   name="robots"
                 content="ALL, INDEX, FOLLOW" />
         <meta   name="Subject"
-                content="A-RMS By PROJECT313" />
+                content="A-RMS By 313DEVGRP" />
         <meta   name="Filename"
                 content="template.html" />
         <meta   name="Author-Date"
@@ -78,23 +78,23 @@ header("Pragma: no-cache"); // HTTP/1.0
         <meta   name="Date"
                 content="Wed 01 Nov 2023" />
         <meta   name="Author"
-                content="PROJECT313" />
+                content="313DEVGRP" />
         <meta   name="Other Agent"
-                content="PROJECT313" />
+                content="313DEVGRP" />
         <meta   name="Email"
                 content="313cokr@gmail.com" />
         <meta   name="Reply-To"
                 content="313cokr@gmail.com" />
         <meta   name="Project"
-                content="A-RMS By PROJECT313" />
+                content="A-RMS By 313DEVGRP" />
         <meta   name="Status"
                 content="Draft" />
         <meta   name="Location"
                 content="South Korea" />
         <meta   name="distribution"
-                content="A-RMS By PROJECT313" />
+                content="A-RMS By 313DEVGRP" />
         <meta   name="Description"
-                content="A-RMS By PROJECT313" />
+                content="A-RMS By 313DEVGRP" />
         <meta   name="verify-v1"
                 content="Eal6+fiCjgKAZb5A6pRvSLmsh9NLF2AsqxqJrLuFoAs=" />
         <meta   name="Revision"
@@ -104,9 +104,9 @@ header("Pragma: no-cache"); // HTTP/1.0
         <meta   name="Classification"
                 content="Development,Deployment" />
         <meta   name="Copyright"
-                content="CopyRight@PROJECT313. All Rights Reserved" />
+                content="CopyRight@313DEVGRP. All Rights Reserved" />
         <meta   name="title"
-                content="A-RMS By PROJECT313" />
+                content="A-RMS By 313DEVGRP" />
         <meta   name="revisit-after"
                 content="1 days" />
         <meta   name="siteinfo"
@@ -118,11 +118,11 @@ header("Pragma: no-cache"); // HTTP/1.0
         <meta   property="og:type"
                 content="website" />
         <meta   property="og:title"
-                content="A-RMS By PROJECT313" />
+                content="A-RMS By 313DEVGRP" />
         <meta   property="og:url"
                 content="http://www.a-rms.net/" />
         <meta   property="og:site_name"
-                content="A-RMS By PROJECT313" />
+                content="A-RMS By 313DEVGRP" />
 
 <?php
 if($config['cf_add_meta'])
