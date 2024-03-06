@@ -10,9 +10,6 @@ P
 :
 
 common.php,0\b\0b57d663b8a91dc6d58ee719832fbd91c387b8e3
-:
-
-config.php,9\2\9204b29823ec1df81e00f78763caf3d872210a9e
 <
 head.sub.php,6\3\63a08db5ede738e2487c58d56fc494eb64f87446
 H
@@ -39,3 +36,7 @@ S
 #plugin/kcaptcha/kcaptcha_config.php,3\3\3360f30cd5e4247d986ce157c936b54a2d78f589
 Y
 )plugin/editor/smarteditor2/editor.lib.php,1\e\1ef216ef2d585be32cc1361571dad6f25afe2de1
+O
+skin/board/basic/write.skin.php,1\0\1075f0521e92e93d88dd3b551c3089b57ccae3ab
+D
+bbs/write_update.php,e\a\ea28837a4ac408bb012f53a7fc3efb0a23a352fc
