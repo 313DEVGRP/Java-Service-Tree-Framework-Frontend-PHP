@@ -40,3 +40,5 @@ O
 skin/board/basic/write.skin.php,1\0\1075f0521e92e93d88dd3b551c3089b57ccae3ab
 D
 bbs/write_update.php,e\a\ea28837a4ac408bb012f53a7fc3efb0a23a352fc
+B
+lib/editor.lib.php,5\0\50d0f851c5dbf2fbca819c1d99e3cc87341445e4
