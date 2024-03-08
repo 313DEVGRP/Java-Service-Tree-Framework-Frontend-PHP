@@ -91,9 +91,9 @@ include_once(G5_THEME_PATH.'/head.php');
                                                         <div class="thumbnail">
                                                             <img src="/arms/img/concept.png" alt="">
                                                             <div class="caption">
-                                                                <h4 style="font-size:14px;">A-RMS 와 JIRA 관계도</h4>
-                                                                <p style="font-size:13px;"><strong>A-RMS</strong>는 요구사항을 관리하며, <strong>JIRA</strong>에 <strong>Issue</strong>로 전환하고, Project에 전파하고, 수집하여, 통계를 내는 시스템입니다.</p>
-                                                                <p style="padding-top:10px;"><a href="http://www.313.co.kr/jira/secure/Dashboard.jspa" target="_blank" class="btn btn-warning btn-sm" style="font-size:13px;line-height: 30px;height: 30px;">Demo OnPremise Jira</a> <a href="https://313devgrp.atlassian.net" target="_blank" class="btn btn-warning btn-sm" style="font-size:13px;line-height: 30px;height: 30px;">Demo Cloud Jira</a></p>
+                                                                <h4 style="font-size:13px;">A-RMS 와 JIRA 관계도</h4>
+                                                                <p style="font-size:12px;"><strong>A-RMS</strong>는 요구사항을 관리하며, <strong>JIRA</strong>에 <strong>Issue</strong>로 전환하고, Project에 전파하고, 수집하여, 통계를 내는 시스템입니다.</p>
+                                                                <p style="padding-top:10px;"><a href="http://www.313.co.kr/jira/secure/Dashboard.jspa" target="_blank" class="btn btn-warning btn-sm" style="font-size:12px;line-height: 30px;height: 30px;">Demo OnPremise Jira</a> <a href="https://313devgrp.atlassian.net" target="_blank" class="btn btn-warning btn-sm" style="font-size:12px;line-height: 30px;height: 30px;">Demo Cloud Jira</a></p>
                                                             </div>
                                                         </div>
 
@@ -446,19 +446,12 @@ include_once(G5_THEME_PATH.'/head.php');
 
         <!-- config icon template -->
         <script type="text/template" id="settings-template">
-            <div class="setting clearfix" style="margin-top: 5px;">
-                <div>Mode (NewTab)</div>
-                <div class="btn-group" style="margin-top: 5px;">
-                    <button type="button" class="btn btn-sm btn-default" style="margin-top: 0px;padding: 1px 7px;">Adm</button>
-                    <button type="button" class="btn btn-sm btn-default" style="margin-top: 0px;padding: 1px 7px;">User</button>
-                </div>
-            </div>
             <div class="setting clearfix" style="margin-top: 15px;">
                 <div>Sidebar</div>
                 <div id="display-sidebar-toggle" class="btn-group" data-toggle="buttons-radio" style="margin-top: 5px;">
                     <% display = displaySidebar%>
-                    <button type="button" data-value="true" class="btn btn-sm btn-default <%= display? 'active' : '' %>" style="margin-top: 0px;padding: 1px 7px;">Show</button>
-                    <button type="button" data-value="false" class="btn btn-sm btn-default <%= display? '' : 'active' %>" style="margin-top: 0px;padding: 1px 7px;">Hide</button>
+                    <button type="button" data-value="false" class="btn btn-sm btn-default <%= display? '' : 'active' %>" style="margin-top: 0px;padding: 1px 7px;">Show</button>
+                    <button type="button" data-value="true" class="btn btn-sm btn-default <%= display? 'active' : '' %>" style="margin-top: 0px;padding: 1px 7px;">Hide</button>
                 </div>
             </div>
             <div class="setting clearfix" style="margin-top: 15px;">

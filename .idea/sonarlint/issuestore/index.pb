@@ -1,8 +1,6 @@
 
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-9
-	index.php,b\b\bb6499b8e938f92a3695fff1afe57edea4b9efb7
 =
 bbs/login.php,9\f\9f0d8b7f5fe2d3428bfb23b1619a68fc9290e260
 P
@@ -12,8 +10,6 @@ P
 common.php,0\b\0b57d663b8a91dc6d58ee719832fbd91c387b8e3
 <
 head.sub.php,6\3\63a08db5ede738e2487c58d56fc494eb64f87446
-H
-theme/313DEVGRP/head.php,e\c\ec1fc4b5d13f2a9af836b323afd75be41faddf74
 g
 7theme/313DEVGRP/skin/outlogin/basic/outlogin.skin.2.php,9\7\973fa4b0618535b74ff58204e580bd86610c445f
 a
