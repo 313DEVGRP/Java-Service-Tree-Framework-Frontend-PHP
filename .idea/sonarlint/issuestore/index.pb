@@ -38,3 +38,7 @@ D
 bbs/write_update.php,e\a\ea28837a4ac408bb012f53a7fc3efb0a23a352fc
 B
 lib/editor.lib.php,5\0\50d0f851c5dbf2fbca819c1d99e3cc87341445e4
+Z
+*theme/313DEVGRP/skin/board/basic/style.css,c\a\ca7cb91c05682098808e58f1252ad951f0a2c2a6
+g
+7theme/313DEVGRP/skin/outlogin/basic/outlogin.skin.1.php,6\c\6c703c29680a6d8928eb90161eb16f3010fa7aca
